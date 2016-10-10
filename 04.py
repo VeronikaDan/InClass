@@ -15,3 +15,4 @@ for word in w:
         d[word] = 1
 for word in sorted(d):
     print(word, d[word])
+f.close()
