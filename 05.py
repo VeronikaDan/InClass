@@ -1,16 +1,25 @@
 f = open('05text.txt', 'w', encoding = 'utf-8')
-stroka = 'hello'
-while stroka != 'stop':
-    stroka = input('print smth: ')
+stroka = 'куку'
+while stroka != 'стоп':
+    stroka = input('напишите слово: ')
     i = str(len(stroka))
+    endings = ['ть','шь','ем','им','ют','ут','ят','ит','ет','те','ла','ло','ли','л']
+    b = False
     m = []
     for letter in stroka:
         m.append(letter)
     m2 = m[::-1]
-    if stroka != 'stop':
+    if stroka != 'стоп':
         f.write(stroka + ';' + i)
         if m == m2:
-            f.write(';' + 'yes' + '\n')
+            f.write(';' + 'палиндром;')
         else:
-            f.write(';' + 'no' + '\n')
+            f.write(';' + 'не палиндром;')
+        for i in range(14):
+            if stroka.endswith(endings[i]):
+                f.write('глагол\n')
+                b = True
+        if b == False:
+            f.write('не глагол\n')
+        
 f.close()
