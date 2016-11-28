@@ -6,10 +6,6 @@ def randomword(file):
     word = random.choice(m)
     return word.strip()
 
-def line1():
-    s = randomword('when.txt') + '\n'
-    return s
-
 def line2():
     subj = randomword('who.txt') + ' '
     adv = randomword('how.txt') + ' '
@@ -25,12 +21,8 @@ def manyline2():
         s = s + line2()
     return s
 
-def line3():
-    s = randomword('feel.txt')
-    return s
-
 def main():
-    haiku = line1() + manyline2() + line3()
+    haiku = randomword('when.txt') + '\n' + manyline2() + randomword('feel.txt')
     print(haiku)
     
 if __name__ == '__main__':
