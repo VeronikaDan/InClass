@@ -1,0 +1,3570 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Черчесов: «Сборная России будет конкурентоспособной на домашнем ЧМ-2018»</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<script data-skip-moving="true">function mobBrowser(name, arr){
+	var temp = new RegExp(name, "i");
+	var result = null;
+	for (var i = 0; i<arr.length;i++){
+		if (temp.test(arr[i])){
+			var nav = arr[i].split('/');
+			result = {
+				name: name,
+				version: parseFloat(nav[1])
+			};
+			return result;
+		}
+	}
+	return result;
+}
+
+function get_browser(){
+	var ua=navigator.userAgent,tem,M=ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || [];
+
+	if (ua.match(/Android/i)) {
+		var info = navigator.userAgent.split(' ');
+
+		if (/chrome/i.test(ua)){
+			return mobBrowser('chrome',info);
+		}
+		if (/ucbrowser/i.test(ua)){
+			return mobBrowser('ucbrowser',info);
+		}
+		if (/safari/i.test(ua)){
+			return mobBrowser('safari',info);
+		}
+	}
+	if(/trident/i.test(M[1])){
+		tem=/\brv[ :]+(\d+)/g.exec(ua) || [];
+		return {name:'IE',version:(tem[1]||'')};
+	}
+	if(M[1]==='Chrome'){
+		tem=ua.match(/\bOPR\/(\d+)/)
+		if(tem!=null)   {return {name:'Opera', version:tem[1]};}
+	}
+	M=M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?'];
+	if((tem=ua.match(/version\/(\d+)/i))!=null) {M.splice(1,1,tem[1]);}
+	return {
+		name: M[0],
+		version: M[1]
+	};
+}
+
+var Detect = function(){
+	var oldies = {
+		'chrome': 15,
+		'msie' : 10,
+		'firefox': 15,
+		'safari': 5
+	};
+	var isOld = false,
+			BrowserDetect = get_browser(),
+			browserName = BrowserDetect ? BrowserDetect.name.toLowerCase() : null,
+			browserVersion = BrowserDetect ? BrowserDetect.version : null;
+
+	if (browserName && browserVersion) {
+		for (var prop in oldies) {
+			if (oldies.hasOwnProperty(prop)) {
+				var val = oldies[prop];
+				if (prop == browserName) {
+					if (+browserVersion < val) {
+						isOld = true;
+					}
+				}
+			}
+		}
+	} else {
+		isOld = true;
+	}
+
+
+	if (isOld){
+			document.write(
+				"<style>body>.container, .footer, .main-content, .top-block, .top-header {display: none;} .oldie-msg{display: block!important;}</style>"
+			);
+		}
+};
+
+Detect();</script>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Главный тренер сборной России Станислав Черчесов считает, что к концу года стали появляться контуры новой команды." />
+<script type="text/javascript" data-skip-moving="true">(function(w, d, n) {var cl = "bx-core";var ht = d.documentElement;var htc = ht ? ht.className : undefined;if (htc === undefined || htc.indexOf(cl) !== -1){return;}var ua = n.userAgent;if (/(iPad;)|(iPhone;)/i.test(ua)){cl += " bx-ios";}else if (/Android/i.test(ua)){cl += " bx-android";}cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch");cl += w.devicePixelRatio && w.devicePixelRatio >= 2? " bx-retina": " bx-no-retina";var ieVersion = -1;if (/AppleWebKit/.test(ua)){cl += " bx-chrome";}else if ((ieVersion = getIeVersion()) > 0){cl += " bx-ie bx-ie" + ieVersion;if (ieVersion > 7 && ieVersion < 10 && !isDoctype()){cl += " bx-quirks";}}else if (/Opera/.test(ua)){cl += " bx-opera";}else if (/Gecko/.test(ua)){cl += " bx-firefox";}if (/Macintosh/i.test(ua)){cl += " bx-mac";}ht.className = htc ? htc + " " + cl : cl;function isDoctype(){if (d.compatMode){return d.compatMode == "CSS1Compat";}return d.documentElement && d.documentElement.clientHeight;}function getIeVersion(){if (/Opera/i.test(ua) || /Webkit/i.test(ua) || /Firefox/i.test(ua) || /Chrome/i.test(ua)){return -1;}var rv = -1;if (!!(w.MSStream) && !(w.ActiveXObject) && ("ActiveXObject" in w)){rv = 11;}else if (!!d.documentMode && d.documentMode >= 10){rv = 10;}else if (!!d.documentMode && d.documentMode >= 9){rv = 9;}else if (d.attachEvent && !/Opera/.test(ua)){rv = 8;}if (rv == -1 || rv == 8){var re;if (n.appName == "Microsoft Internet Explorer"){re = new RegExp("MSIE ([0-9]+[\.0-9]*)");if (re.exec(ua) != null){rv = parseFloat(RegExp.$1);}}else if (n.appName == "Netscape"){rv = 11;re = new RegExp("Trident/.*rv:([0-9]+[\.0-9]*)");if (re.exec(ua) != null){rv = parseFloat(RegExp.$1);}}}return rv;}})(window, document, navigator);</script>
+
+
+<link href="//opt-858748.ssl.1c-bitrix-cdn.ru/bitrix/cache/css/s1/main/kernel_main/kernel_main.css?147703331144417" type="text/css"  rel="stylesheet" />
+<link href="//opt-858748.ssl.1c-bitrix-cdn.ru/bitrix/cache/css/s1/main/template_043c9a532925fd4185432dbd03811d14/template_043c9a532925fd4185432dbd03811d14.css?1480586580412988" type="text/css"  data-template-style="true"  rel="stylesheet" />
+
+
+
+				
+				
+
+				
+				
+				
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="icon" type="image/png" href="https://www.sportfakt.ru/local/templates/main/images/touch-icons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="https://www.sportfakt.ru/local/templates/main/images/touch-icons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="https://www.sportfakt.ru/local/templates/main/images/touch-icons/favicon-96x96.png" sizes="96x96">
+
+<!-- Apple Touch Icons -->
+<link rel="apple-touch-icon" sizes="57x57" href="https://www.sportfakt.ru/local/templates/main/images/touch-icons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://www.sportfakt.ru/local/templates/main/images/touch-icons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://www.sportfakt.ru/local/templates/main/images/touch-icons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://www.sportfakt.ru/local/templates/main/images/touch-icons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://www.sportfakt.ru/local/templates/main/images/touch-icons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://www.sportfakt.ru/local/templates/main/images/touch-icons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://www.sportfakt.ru/local/templates/main/images/touch-icons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://www.sportfakt.ru/local/templates/main/images/touch-icons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.sportfakt.ru/local/templates/main/images/touch-icons/apple-touch-icon-180x180.png">
+
+<!-- Windows 8 Tile Icons -->
+<meta name="msapplication-square70x70logo" content="https://www.sportfakt.ru/local/templates/main/images/touch-icons/smalltile.png" />
+<meta name="msapplication-square150x150logo" content="https://www.sportfakt.ru/local/templates/main/images/touch-icons/mediumtile.png" />
+<meta name="msapplication-wide310x150logo" content="https://www.sportfakt.ru/local/templates/main/images/touch-icons/widetile.png" />
+<meta name="msapplication-square310x310logo" content="https://www.sportfakt.ru/local/templates/main/images/touch-icons/largetile.png" />
+
+<!-- Android Chrome Icons -->
+<link rel="icon" type="image/png" href="https://www.sportfakt.ru/local/templates/main/images/touch-icons/android-chrome-192x192.png" sizes="192x192">
+
+<!-- Theme Color -->
+<meta content="#FC7100" name="theme-color">
+<meta property="og:url" content="http://www.sportfakt.ru/news/cherchesov-sbornaya-rossii-budet-konkurentosposobnoy-na-domashnem-chm-2018/" />
+<meta property="og:type" content="article" />
+<meta property="og:locale" content="ru_RU" />
+<meta property="og:title" content="Черчесов: «Сборная России будет конкурентоспособной на домашнем ЧМ-2018»" />
+<meta property="og:description" content="Главный тренер сборной России Станислав Черчесов считает, что к концу года стали появляться контуры новой команды." />
+	<!--[if lt IE 9]>
+		<![endif]-->
+
+	
+
+<!--LiveInternet counter-->
+<script data-skip-moving="true" type="text/javascript"><!--
+	new Image().src = "//counter.yadro.ru/hit?r" +
+		escape(document.referrer) + ((typeof(screen) == "undefined") ? "" :
+		";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ?
+			screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) +
+		";" + Math.random();//--></script><!--/LiveInternet-->
+
+
+<!-- Yandex.Metrika counter -->
+<script data-skip-moving="true" type="text/javascript"> (function(d, w, c) {
+		(w[c] = w[c] || []).push(function() {
+			try {
+				w.yaCounter34819775 = new Ya.Metrika({id: 34819775, clickmap: true, trackLinks: true, accurateTrackBounce: true, webvisor: true});
+			} catch (e) {
+			}
+		});
+		var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function() {
+			n.parentNode.insertBefore(s, n);
+		};
+		s.type = "text/javascript";
+		s.async = true;
+		s.src = "https://mc.yandex.ru/metrika/watch.js";
+		if (w.opera == "[object Opera]") {
+			d.addEventListener("DOMContentLoaded", f, false);
+		} else {
+			f();
+		}
+	})(document, window, "yandex_metrika_callbacks"); </script>
+<noscript>
+	<div><img src="https://mc.yandex.ru/watch/34819775" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript> <!-- /Yandex.Metrika counter -->
+
+<script data-skip-moving="true">
+	(function(i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r;
+		i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+		a = s.createElement(o),
+			m = s.getElementsByTagName(o)[0];
+		a.async = 1;
+		a.src = g;
+		m.parentNode.insertBefore(a, m)
+	})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+	ga('create', 'UA-72660077-1', 'auto');
+	ga('send', 'pageview');
+
+</script>
+</head>
+<body class="">
+<header class="top-header clearfix">
+		<div class="container">
+		<a class="navbar-brand" href="/" title="Спортфакт"><img src="/local/templates/main/images/header/logo_black.svg"></a>
+
+		
+<form class="navbar-form navbar-right hidden-xs hidden-sm" action="/search/">
+	<div class="form-group">
+		<input class="form-control" placeholder="поиск" name="q" value="">
+	</div>
+</form>		<button type="button" class="navbar-toggle collapsed menu-toggle" data-toggle="collapse" data-target="#top-menu-mb" aria-expanded="false">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-search" aria-expanded="false">
+			<i class="icon icon-loupe"></i>
+		</button>
+		
+<!--'start_frame_cache_iIjGFB'-->			<noindex>
+			<button class="navbar-login navbar-toggle" data-toggle="collapse" data-target="#login-form" title="Войти"><i class="icon icon-login-full"></i></button>
+			<div class="navbar navbar-right">
+				<div class="dropdown navbar-dropdown">
+					<a href="#" class="dropdown-toggle btn btn-default" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Войти</a>
+					<div class="dropdown-menu">
+						<form name="system_auth_form6zOYVN" method="post" target="_top" action="/news/cherchesov-sbornaya-rossii-budet-konkurentosposobnoy-na-domashnem-chm-2018/">
+															<input type="hidden" name="backurl" value="/news/cherchesov-sbornaya-rossii-budet-konkurentosposobnoy-na-domashnem-chm-2018/" />
+																					<input type="hidden" name="AUTH_FORM" value="Y" />
+							<input type="hidden" name="TYPE" value="AUTH" />
+							<input type="hidden" name="USER_REMEMBER" value="Y" />
+
+							<div class="form-group">
+								<input class="form-control" type="text" name="USER_LOGIN" placeholder="логин" value="">
+							</div>
+							<div class="form-group">
+								<input class="form-control" type="password" name="USER_PASSWORD" placeholder="пароль">
+							</div>
+
+							
+							<div class="form-group">
+								<button type="submit" class="btn btn-default">Вход</button>
+																	<noindex><a href="/profile/?register=yes" class="btn btn-default" rel="nofollow">Регистрация</a></noindex>
+															</div>
+						</form>
+													
+<div class="enter-social">
+	<div class="enter-social-title">Вход через соцсети:</div>
+	<ul class="social-list">
+					<li><a href="javascript:void(0)" onclick="BX.util.popup('https://www.facebook.com/dialog/oauth?client_id=412116112292146&redirect_uri=https%3A%2F%2Fwww.sportfakt.ru%2Fnews%2Fcherchesov-sbornaya-rossii-budet-konkurentosposobnoy-na-domashnem-chm-2018%2F%3Fauth_service_id%3DFacebook%26check_key%3D4e93fff1c601a3348c5b01a053c03f23%26backurl%3D%252Fnews%252Fcherchesov-sbornaya-rossii-budet-konkurentosposobnoy-na-domashnem-chm-2018%252F&scope=email,publish_actions,user_friends&display=popup', 680, 600)" id="bx_auth_href_formFacebook"><i class="social-icon icon-facebook"></i></a></li>
+					<li><a href="javascript:void(0)" onclick="BX.util.popup('/news/cherchesov-sbornaya-rossii-budet-konkurentosposobnoy-na-domashnem-chm-2018/?ncc=1&auth_service_id=Twitter&check_key=4e93fff1c601a3348c5b01a053c03f23&backurl=%2Fnews%2Fcherchesov-sbornaya-rossii-budet-konkurentosposobnoy-na-domashnem-chm-2018%2F', 800, 450)" id="bx_auth_href_formTwitter"><i class="social-icon icon-twitter"></i></a></li>
+					<li><a href="javascript:void(0)" onclick="BX.util.popup('https://oauth.vk.com/authorize?client_id=5659245&redirect_uri=https%3A%2F%2Fwww.sportfakt.ru%2Fnews%2Fcherchesov-sbornaya-rossii-budet-konkurentosposobnoy-na-domashnem-chm-2018%2F%3Fauth_service_id%3DVKontakte&scope=friends,notify,offline,email&response_type=code&state=site_id%3Ds1%26backurl%3D%252Fnews%252Fcherchesov-sbornaya-rossii-budet-konkurentosposobnoy-na-domashnem-chm-2018%252F%253Fcheck_key%253D4e93fff1c601a3348c5b01a053c03f23%26redirect_url%3D%252Fnews%252Fcherchesov-sbornaya-rossii-budet-konkurentosposobnoy-na-domashnem-chm-2018%252F', 660, 425)" id="bx_auth_href_formVKontakte"><i class="social-icon icon-vkontakte"></i></a></li>
+			</ul>
+</div>
+											</div>
+				</div>
+			</div>
+		</noindex>
+	<!--'end_frame_cache_iIjGFB'-->		<nav id="top-menu" class="top-menu clearfix hidden-xs hidden-sm">
+				<ul class="no-bullet inline-list m0">
+					<li>
+									<a href="/author/" title="Авторы" >Авторы</a>
+							</li>
+					<li>
+									<a href="/interview/" title="Интервью дня" >Интервью дня</a>
+							</li>
+			</ul>
+		</nav>
+	</div>
+</header>
+<div class="container">
+	<div class="login-menu collapse" id="login-form">
+		
+<!--'start_frame_cache_8k8aZS'-->		<noindex>
+		<form name="system_auth_formPqgS8z" method="post" target="_top" action="/news/cherchesov-sbornaya-rossii-budet-konkurentosposobnoy-na-domashnem-chm-2018/">
+							<input type="hidden" name="backurl" value="/news/cherchesov-sbornaya-rossii-budet-konkurentosposobnoy-na-domashnem-chm-2018/" />
+									<input type="hidden" name="AUTH_FORM" value="Y" />
+			<input type="hidden" name="TYPE" value="AUTH" />
+			<input type="hidden" name="USER_REMEMBER" value="Y" />
+
+			<div class="form-group">
+				<input class="form-control" type="text" name="USER_LOGIN" placeholder="логин" value="">
+			</div>
+			<div class="form-group">
+				<input class="form-control" type="password" name="USER_PASSWORD" placeholder="пароль">
+			</div>
+
+			
+			<div class="form-group">
+				<button type="submit" class="btn btn-default">Вход</button>
+									<noindex><a href="/profile/?register=yes" class="btn btn-default" rel="nofollow">Регистрация</a></noindex>
+							</div>
+		</form>
+					
+<div class="enter-social">
+	<div class="enter-social-title">Вход через соцсети:</div>
+	<ul class="social-list">
+					<li><a href="javascript:void(0)" onclick="BX.util.popup('https://www.facebook.com/dialog/oauth?client_id=412116112292146&redirect_uri=https%3A%2F%2Fwww.sportfakt.ru%2Fnews%2Fcherchesov-sbornaya-rossii-budet-konkurentosposobnoy-na-domashnem-chm-2018%2F%3Fauth_service_id%3DFacebook%26check_key%3D4e93fff1c601a3348c5b01a053c03f23%26backurl%3D%252Fnews%252Fcherchesov-sbornaya-rossii-budet-konkurentosposobnoy-na-domashnem-chm-2018%252F&scope=email,publish_actions,user_friends&display=popup', 680, 600)" id="bx_auth_href_formFacebook"><i class="social-icon icon-facebook"></i></a></li>
+					<li><a href="javascript:void(0)" onclick="BX.util.popup('/news/cherchesov-sbornaya-rossii-budet-konkurentosposobnoy-na-domashnem-chm-2018/?ncc=1&auth_service_id=Twitter&check_key=4e93fff1c601a3348c5b01a053c03f23&backurl=%2Fnews%2Fcherchesov-sbornaya-rossii-budet-konkurentosposobnoy-na-domashnem-chm-2018%2F', 800, 450)" id="bx_auth_href_formTwitter"><i class="social-icon icon-twitter"></i></a></li>
+					<li><a href="javascript:void(0)" onclick="BX.util.popup('https://oauth.vk.com/authorize?client_id=5659245&redirect_uri=https%3A%2F%2Fwww.sportfakt.ru%2Fnews%2Fcherchesov-sbornaya-rossii-budet-konkurentosposobnoy-na-domashnem-chm-2018%2F%3Fauth_service_id%3DVKontakte&scope=friends,notify,offline,email&response_type=code&state=site_id%3Ds1%26backurl%3D%252Fnews%252Fcherchesov-sbornaya-rossii-budet-konkurentosposobnoy-na-domashnem-chm-2018%252F%253Fcheck_key%253D4e93fff1c601a3348c5b01a053c03f23%26redirect_url%3D%252Fnews%252Fcherchesov-sbornaya-rossii-budet-konkurentosposobnoy-na-domashnem-chm-2018%252F', 660, 425)" id="bx_auth_href_formVKontakte"><i class="social-icon icon-vkontakte"></i></a></li>
+			</ul>
+</div>
+			</noindex>
+	<!--'end_frame_cache_8k8aZS'-->	</div>
+	<nav id="top-menu-mb" class="top-menu top-menu-mb collapse clearfix">
+			<ul class="no-bullet inline-list m0">
+					<li>
+									<a href="/author/" title="Авторы" >Авторы</a>
+							</li>
+					<li>
+									<a href="/interview/" title="Интервью дня" >Интервью дня</a>
+							</li>
+			</ul>
+	</nav>
+	<div id="top-search" class="collapse search-collapse">
+		
+<form class="navbar-form navbar-right" action="/search/">
+	<div class="form-group">
+		<button type="submit" class="search-btn"><i class="icon icon-loupe"></i></button>
+		<div class="input-search-group">
+			<input class="form-control" placeholder="поиск" name="q" value="">
+		</div>
+	</div>
+</form>	</div>
+</div>
+
+
+<section class="top-block">
+	<div class="container">
+		
+<section id="currentmatch-app" class="current-events" data-cid='8fb7d720b3b0a2b3d22b52b5ce929ae8' >
+		<div class="container-wrap">
+			<div class="current-events-title">
+				<a data-toggle="collapse" data-target="#cur-events">Текущие события</a>
+			</div>
+			<div class="collapse clearfix events-collapse initial" id="cur-events">
+				<div class="current-events-wrap">
+					<ul class="events-filter">
+											</ul>
+					<div id="match-region">
+						<div class="events-slider" id="events-slider">
+													</div>
+					</div>
+				</div>
+			</div>
+		</div>
+</section>	</div>
+</section>
+
+<section class="main-content">
+	<div class="container">
+		<header class="main-header clearfix">
+			<button type="button" class="navbar-toggle menu-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<div class="current-page">Черчесов: «Сборная России будет конкурентоспособной на домашнем ЧМ-2018»</div>
+			<nav id="main-menu" class="navigation collapse">
+					<ul class="navs">
+							<li>
+									<a data-id="492" href="/futbol/" >Футбол</a>
+				
+									<ul>
+													<li>
+																	<a data-id="497" href="/futbol/futbol-rossii/" >Россия</a>
+								
+																	<ul>
+																					<li>
+																									<a data-id="498" href="/futbol/futbol-rossii/rfpl-premer-liga/" >РФПЛ (Премьер лига)</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="507" href="/futbol/futbol-rossii/fnl-pervyj-divizion/" >ФНЛ (Первый дивизион)</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="516" href="/futbol/futbol-rossii/pfl-vtoroj-divizion/" >ПФЛ (Второй дивизион)</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="517" href="/futbol/futbol-rossii/kubok-rossii/" >Кубок России</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="518" href="/futbol/futbol-rossii/molodezhnoe-pervenstvo/" >Молодежное первенство</a>
+												
+																							</li>
+																			</ul>
+															</li>
+													<li>
+																	<a data-id="1043" href="/futbol/liga-chempionov/" >Лига Чемпионов</a>
+								
+																	<ul>
+																					<li>
+																									<a data-id="1049" href="/futbol/liga-chempionov/group/" >Группы</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="1054" href="/futbol/liga-chempionov/kalendar-i-rezultaty/" >Календарь и результаты</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="1050" href="/futbol/liga-chempionov/news/" >Новости</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="1051" href="/futbol/liga-chempionov/stati/" >Статьи</a>
+												
+																							</li>
+																			</ul>
+															</li>
+													<li>
+																	<a data-id="641" href="/futbol/liga-evropy/" >Лига Европы</a>
+								
+															</li>
+													<li>
+																	<a data-id="519" href="/futbol/futbol-anglii/" >Англия </a>
+								
+																	<ul>
+																					<li>
+																									<a data-id="520" href="/futbol/futbol-anglii/apl-premer-liga/" >Премьер-лига</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="529" href="/futbol/futbol-anglii/chempionship/" >Чемпионшип</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="540" href="/futbol/futbol-anglii/kubok-anglii/" >Кубок Англии</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="541" href="/futbol/futbol-anglii/kubok-ligi/" >Кубок лиги</a>
+												
+																							</li>
+																			</ul>
+															</li>
+													<li>
+																	<a data-id="542" href="/futbol/futbol-ispanii/" >Испания</a>
+								
+																	<ul>
+																					<li>
+																									<a data-id="543" href="/futbol/futbol-ispanii/ispanskaya-primera-la-liga/" >Примера</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="561" href="/futbol/futbol-ispanii/kubok-ispanii/" >Кубок Испании</a>
+												
+																							</li>
+																			</ul>
+															</li>
+													<li>
+																	<a data-id="562" href="/futbol/futbol-germanii/" >Германия</a>
+								
+																	<ul>
+																					<li>
+																									<a data-id="563" href="/futbol/futbol-germanii/bundesliga/" >Бундеслига</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="581" href="/futbol/futbol-germanii/kubok-germanii/" >Кубок Германии</a>
+												
+																							</li>
+																			</ul>
+															</li>
+													<li>
+																	<a data-id="582" href="/futbol/futbol-italii/" >Италия</a>
+								
+																	<ul>
+																					<li>
+																									<a data-id="583" href="/futbol/futbol-italii/seriya-a/" >Серия A</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="601" href="/futbol/futbol-italii/kubok-italii/" >Кубок Италии</a>
+												
+																							</li>
+																			</ul>
+															</li>
+													<li>
+																	<a data-id="602" href="/futbol/futbol-francii/" >Франция</a>
+								
+																	<ul>
+																					<li>
+																									<a data-id="603" href="/futbol/futbol-francii/liga-1/" >Лига 1</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="613" href="/futbol/futbol-francii/kubok-francii/" >Кубок Франции</a>
+												
+																							</li>
+																			</ul>
+															</li>
+													<li>
+																	<a data-id="615" href="/futbol/futbol-ukrainy/" >Украина</a>
+								
+																	<ul>
+																					<li>
+																									<a data-id="616" href="/futbol/futbol-ukrainy/ufpl/" >Лига Пари-Матч</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="625" href="/futbol/futbol-ukrainy/pervaya-liga/" >Первая лига</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="626" href="/futbol/futbol-ukrainy/kubok-ukrainy/" >Кубок Украины</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="627" href="/futbol/futbol-ukrainy/superkubok/" >Суперкубок</a>
+												
+																							</li>
+																			</ul>
+															</li>
+													<li>
+																	<a data-id="628" href="/futbol/futbol-usa/" >США</a>
+								
+																	<ul>
+																					<li>
+																									<a data-id="629" href="/futbol/futbol-usa/mls/" >МЛС</a>
+												
+																							</li>
+																			</ul>
+															</li>
+													<li>
+																	<a data-id="638" href="/futbol/mirovoj-futbol/" >Мировой футбол</a>
+								
+																	<ul>
+																					<li>
+																									<a data-id="643" href="/futbol/mirovoj-futbol/yuzhnaya-amerika/" >Южная Америка</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="644" href="/futbol/mirovoj-futbol/molodezhnye-sbornye/" >Молодежные сборные</a>
+												
+																							</li>
+																			</ul>
+															</li>
+													<li>
+																	<a data-id="642" href="/futbol/chempionat-mira/" >Чемпионат мира</a>
+								
+															</li>
+													<li>
+																	<a data-id="639" href="/futbol/chempionat-evropy/" >Чемпионат Европы</a>
+								
+															</li>
+													<li>
+																	<a data-id="493" href="/futbol/novosti-mirovogo-futbola/" >Новости </a>
+								
+															</li>
+													<li>
+																	<a data-id="494" href="/futbol/stati/" >Статьи</a>
+								
+															</li>
+													<li>
+																	<a data-id="495" href="/futbol/video/" >Видео</a>
+								
+															</li>
+													<li>
+																	<a data-id="496" href="/futbol/foto/" >Фото</a>
+								
+															</li>
+											</ul>
+							</li>
+															<li>
+									<a data-id="645" href="/hokkej/" >Хоккей</a>
+				
+									<ul>
+													<li>
+																	<a data-id="651" href="/hokkej/khl/" >КХЛ </a>
+								
+																	<ul>
+																					<li>
+																									<a data-id="653" href="/hokkej/khl/raspisanie-i-rezultaty-kalendar/" >Календарь и Результаты</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="654" href="/hokkej/khl/novosti/" >Новости</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="655" href="/hokkej/khl/stati/" >Статьи</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="657" href="/hokkej/khl/foto/" >Фото</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="659" href="/hokkej/khl/komandy/" >Команды...</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="662" href="/hokkej/khl/kubok-gagarina/" >Кубок Гагарина</a>
+												
+																							</li>
+																			</ul>
+															</li>
+													<li>
+																	<a data-id="660" href="/hokkej/vhl/" >ВХЛ</a>
+								
+															</li>
+													<li>
+																	<a data-id="661" href="/hokkej/mhl/" >МХЛ</a>
+								
+															</li>
+													<li>
+																	<a data-id="663" href="/hokkej/hokkej-usa/" >НХЛ (NHL) (Национальная хоккейная лига)</a>
+								
+																	<ul>
+																					<li>
+																									<a data-id="664" href="/hokkej/hokkej-usa/nhl-nacionalnaya-hokkejnaya-liga/" >Регулярный чемпионат</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="673" href="/hokkej/hokkej-usa/kubok-stenli/" >Кубок Стэнли</a>
+												
+																							</li>
+																			</ul>
+															</li>
+													<li>
+																	<a data-id="674" href="/hokkej/chempionat-mira/" >Чемпионат мира</a>
+								
+																	<ul>
+																					<li>
+																									<a data-id="675" href="/hokkej/chempionat-mira/sbornaya-rossii/" >Сборная России</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="1052" href="/hokkej/chempionat-mira/novosti/" >Новости</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="1053" href="/hokkej/chempionat-mira/stati/" >Статьи</a>
+												
+																							</li>
+																			</ul>
+															</li>
+													<li>
+																	<a data-id="1040" href="/hokkej/evrotur/" >Евротур</a>
+								
+																	<ul>
+																					<li>
+																									<a data-id="1047" href="/hokkej/evrotur/kalendar-i-rezultaty/" >Календарь и Результаты</a>
+												
+																							</li>
+																			</ul>
+															</li>
+													<li>
+																	<a data-id="1042" href="/hokkej/kubok-mira/" >Кубок Мира</a>
+								
+															</li>
+													<li>
+																	<a data-id="1041" href="/hokkej/olimpijskij-turnir/" >Олимпийский турнир</a>
+								
+															</li>
+													<li>
+																	<a data-id="646" href="/hokkej/novosti/" >Новости </a>
+								
+															</li>
+													<li>
+																	<a data-id="647" href="/hokkej/stati/" >Статьи</a>
+								
+															</li>
+													<li>
+																	<a data-id="648" href="/hokkej/video/" >Видео</a>
+								
+															</li>
+													<li>
+																	<a data-id="649" href="/hokkej/foto/" >Фото</a>
+								
+															</li>
+											</ul>
+							</li>
+															<li>
+									<a data-id="769" href="/basketbol/" >Баскетбол</a>
+				
+									<ul>
+													<li>
+																	<a data-id="770" href="/basketbol/chempionat-rossii-edinaya-liga-vtb/" >Чемпионат России (Единая лига ВТБ)</a>
+								
+															</li>
+													<li>
+																	<a data-id="779" href="/basketbol/naconalnaya-basketbolnaya-liga-nba/" >НБА</a>
+								
+															</li>
+													<li>
+																	<a data-id="788" href="/basketbol/evroliga/" >Евролига</a>
+								
+															</li>
+													<li>
+																	<a data-id="789" href="/basketbol/evrokubki/" >Еврокубки</a>
+								
+															</li>
+													<li>
+																	<a data-id="791" href="/basketbol/chempionat-evropy/" >Чемпионат Европы</a>
+								
+															</li>
+													<li>
+																	<a data-id="792" href="/basketbol/olimpijskie-igry/" >Олимпийские игры</a>
+								
+															</li>
+													<li>
+																	<a data-id="793" href="/basketbol/sbornaya-rossii/" >Сборная России</a>
+								
+															</li>
+													<li>
+																	<a data-id="794" href="/basketbol/novosti/" >Новости</a>
+								
+															</li>
+													<li>
+																	<a data-id="796" href="/basketbol/stati/" >Статьи</a>
+								
+															</li>
+													<li>
+																	<a data-id="799" href="/basketbol/foto/" >Фото</a>
+								
+															</li>
+											</ul>
+							</li>
+															<li>
+									<a data-id="738" href="/biatlon/" >Биатлон</a>
+				
+									<ul>
+													<li>
+																	<a data-id="739" href="/biatlon/kubok-mira/" >Кубок мира</a>
+								
+																	<ul>
+																					<li>
+																									<a data-id="1065" href="/biatlon/kubok-mira/zachety-km/" >Зачеты КМ</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="1066" href="/biatlon/kubok-mira/kalendar/" >Календарь</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="1067" href="/biatlon/kubok-mira/novosti/" >Новости</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="1068" href="/biatlon/kubok-mira/stati/" >Статьи</a>
+												
+																							</li>
+																			</ul>
+															</li>
+													<li>
+																	<a data-id="1064" href="/biatlon/kubok-ibu/" >Кубок IBU</a>
+								
+															</li>
+													<li>
+																	<a data-id="1039" href="/biatlon/championat mira/" >Чемпионат Мира</a>
+								
+																	<ul>
+																					<li>
+																									<a data-id="1070" href="/biatlon/championat mira/kalendar/" >Календарь</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="1071" href="/biatlon/championat mira/medali/" >Медали</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="1072" href="/biatlon/championat mira/novosti/" >Новости</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="1073" href="/biatlon/championat mira/stati/" >Статьи</a>
+												
+																							</li>
+																			</ul>
+															</li>
+													<li>
+																	<a data-id="756" href="/biatlon/chempionat-evropy/" >Чемпионат Европы</a>
+								
+																	<ul>
+																					<li>
+																									<a data-id="1075" href="/biatlon/chempionat-evropy/kalendar/" >Календарь</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="1077" href="/biatlon/chempionat-evropy/novosti/" >Новости</a>
+												
+																							</li>
+																					<li>
+																									<a data-id="1078" href="/biatlon/chempionat-evropy/stati/" >Статьи</a>
+												
+																							</li>
+																			</ul>
+															</li>
+													<li>
+																	<a data-id="757" href="/biatlon/olimpijskie-igry/" >Олимпиада</a>
+								
+															</li>
+													<li>
+																	<a data-id="764" href="/biatlon/novosti/" >Новости</a>
+								
+															</li>
+													<li>
+																	<a data-id="762" href="/biatlon/stati/" >Статьи</a>
+								
+															</li>
+													<li>
+																	<a data-id="1085" href="/biatlon/superfakty/" >Суперфакты</a>
+								
+															</li>
+													<li>
+																	<a data-id="766" href="/biatlon/foto/" >Фото</a>
+								
+															</li>
+											</ul>
+							</li>
+															<li>
+									<a data-id="704" href="/boks/" >Бокс</a>
+				
+									<ul>
+													<li>
+																	<a data-id="716" href="/boks/novosti/" >Новости</a>
+								
+															</li>
+													<li>
+																	<a data-id="718" href="/boks/stati/" >Статьи</a>
+								
+															</li>
+													<li>
+																	<a data-id="720" href="/boks/foto/" >Фото</a>
+								
+															</li>
+													<li>
+																	<a data-id="1061" href="/boks/istorii-belenkogo/" >Истории Беленького</a>
+								
+															</li>
+											</ul>
+							</li>
+															<li>
+									<a data-id="723" href="/formula-f1/" >Формула-1</a>
+				
+									<ul>
+													<li>
+																	<a data-id="724" href="/formula-f1/chempionat/" >Зачет чемпионата</a>
+								
+															</li>
+													<li>
+																	<a data-id="733" href="/formula-f1/kalendar/" >Календарь</a>
+								
+															</li>
+													<li>
+																	<a data-id="730" href="/formula-f1/novosti/" >Новости</a>
+								
+															</li>
+													<li>
+																	<a data-id="732" href="/formula-f1/stati/" >Статьи</a>
+								
+															</li>
+													<li>
+																	<a data-id="736" href="/formula-f1/foto/" >Фото</a>
+								
+															</li>
+											</ul>
+							</li>
+															<li>
+									<a data-id="677" href="/tennis/" >Теннис</a>
+				
+									<ul>
+													<li>
+																	<a data-id="682" href="/tennis/wta/" >WTA</a>
+								
+															</li>
+													<li>
+																	<a data-id="690" href="/tennis/atp/" >ATP</a>
+								
+															</li>
+													<li>
+																	<a data-id="700" href="/tennis/kubok-federacii/" >Кубок Дэвиса</a>
+								
+															</li>
+													<li>
+																	<a data-id="701" href="/tennis/uimbldon/" >Кубок Федерации</a>
+								
+															</li>
+													<li>
+																	<a data-id="678" href="/tennis/novosti-tennisa-rossii-i-mira/" >Новости тенниса России и мира</a>
+								
+															</li>
+													<li>
+																	<a data-id="679" href="/tennis/stati/" >Статьи </a>
+								
+															</li>
+													<li>
+																	<a data-id="681" href="/tennis/foto/" >Фото </a>
+								
+															</li>
+											</ul>
+							</li>
+															<li>
+									<a data-id="" href="/drugoe/" >Остальные</a>
+				
+							</li>
+											</ul>
+				<ul class="navs">
+								<li>
+									<a data-id="" href="/news/" class="active">Новости</a>
+				
+									<ul>
+													<li>
+																	<a data-id="492" href="/futbol/" >Футбол</a>
+								
+															</li>
+													<li>
+																	<a data-id="645" href="/hokkej/" >Хоккей</a>
+								
+															</li>
+													<li>
+																	<a data-id="677" href="/tennis/" >Теннис</a>
+								
+															</li>
+													<li>
+																	<a data-id="704" href="/boks/" >Бокс</a>
+								
+															</li>
+													<li>
+																	<a data-id="723" href="/formula-f1/" >Формула 1</a>
+								
+															</li>
+													<li>
+																	<a data-id="738" href="/biatlon/" >Биатлон</a>
+								
+															</li>
+													<li>
+																	<a data-id="769" href="/basketbol/" >Баскетбол</a>
+								
+															</li>
+													<li>
+																	<a data-id="861" href="/figurnoe-katanie/" >Фигурное катание</a>
+								
+															</li>
+													<li>
+																	<a data-id="879" href="/volejbol/" >Волейбол</a>
+								
+															</li>
+													<li>
+																	<a data-id="992" href="/drugoe/" >Остальные</a>
+								
+															</li>
+											</ul>
+							</li>
+															<li>
+									<a data-id="" href="/rezultaty/" >Результаты</a>
+				
+							</li>
+															<li>
+									<a data-id="1030" href="/rubriki/" >Рубрики</a>
+				
+									<ul>
+													<li>
+																	<a data-id="1034" href="/rubriki/geskin-view/" >Версия Гескина</a>
+								
+															</li>
+													<li>
+																	<a data-id="1031" href="/rubriki/bayki-geskina/" >Байки Гескина</a>
+								
+															</li>
+													<li>
+																	<a data-id="1032" href="/rubriki/bokserskie-istorii-belenkogo/" >Боксерские истории Беленького</a>
+								
+															</li>
+													<li>
+																	<a data-id="1035" href="/rubriki/old-newspapers/" >О чем писали газеты в прошлом веке</a>
+								
+															</li>
+													<li>
+																	<a data-id="1036" href="/rubriki/rio-2016/" >Рио-2016</a>
+								
+															</li>
+													<li>
+																	<a data-id="993" href="/rubriki/otvety/" >Ответы</a>
+								
+															</li>
+													<li>
+																	<a data-id="1045" href="/rubriki/doping/" >допинг</a>
+								
+															</li>
+													<li>
+																	<a data-id="1048" href="/rubriki/kalendar-geskina/" >Календарь Гескина</a>
+								
+															</li>
+													<li>
+																	<a data-id="1060" href="/rubriki/sobesedniki-tatyany-kopylovoy/" >Собеседники Татьяны Копыловой</a>
+								
+															</li>
+													<li>
+																	<a data-id="1056" href="/rubriki/foto/" >Фото</a>
+								
+															</li>
+											</ul>
+							</li>
+															<li>
+									<a data-id="" href="/superfakt/" >Суперфакты</a>
+				
+							</li>
+															<li>
+									<a data-id="" href="/rubriki/doping/" >Допинг</a>
+				
+							</li>
+													</ul>
+			</nav>
+		</header>
+		<section class="breadcrumb-line"><div class="container"><ol class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="/" title="Главная страница"><span itemprop="name">Главная страница</span></a></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="/futbol/" title="Футбол"><span itemprop="name">Футбол</span></a></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="/futbol/chempionat-mira/" title="Чемпионат мира"><span itemprop="name">Чемпионат мира</span></a></li></ol></div></section>	</div>
+	<div class="container container-lg">
+		<div class="row">
+			<section id="content" class="col-xs-12 col-sm-12 col-md-8 singlepost">
+				
+<div itemscope itemtype="http://schema.org/Article">
+		<div class="cat-title mb25 football">Футбол</div>
+
+	<div id="bx_718916391_51999" data-wbc-item data-iid="1" data-eid="51999" class="detail">
+		<h1 itemprop="headline">Черчесов: «Сборная России будет конкурентоспособной на домашнем ЧМ-2018»</h1>
+					<div class="h4" itemprop="about">Главный тренер сборной России Станислав Черчесов считает, что к концу года стали появляться контуры новой команды.</div>
+				<div itemprop="articleBody"><p>
+ <b>- Сборная России 9 октября открыла стадион ФК «Краснодар» матчем с Коста-Рикой. Какое впечатление осталось от этого поединка и предшествующего сбора?</b>
+</p>
+<p>
+	 - Мы провели хороший, качественный сбор в Краснодаре. Целенаправленно готовились к одному конкретному матчу. Сборная Коста-Рики – очень хороший соперник, она дошла до четвертьфинала чемпионата мира-2014, где уступила Голландии только в серии пенальти. Важно, что мы встречаемся с командами из разных географических зон, знакомимся с их манерой игры. По моему мнению, открытие стадиона ФК «Краснодар» удалось, получился запоминающийся футбольный спектакль. Приятно, что мы первыми сыграли на такой великолепной арене. Нужно отдать дань уважения Сергею Галицкому, он сделал большое дело как для своего региона, так и для всего российского футбола. Президент ФК «Краснодар» хотел открыть стадион именно матчем сборной России, и это делает нам честь.
+</p>
+<p>
+	 Добиться положительного результата не вышло, но во время игры были моменты, в которых можно было разглядеть контуры характера команды. Конечно, всегда неприятно проигрывать в компенсированное время, но, думаю, мы дали болельщикам определенный повод для оптимизма. Команда забила три мяча, до последней минуты атаковала, могла завершить поединок со счетом 4:4. Также можно отметить, что в физическом плане в матче с Коста-Рикой мы выглядели лучше, чем в предыдущих играх. Это подтверждается и статическими данными. Так, по сравнению с контрольным матчем со сборной Турции, в этот раз команда сделала ровно на 200 технико-тактических действий больше.
+</p>
+<p>
+ <b>- Перед ноябрьским сбором в Дохе и Грозном сборная России оказалась в непростом положении из-за эпидемии травм у ряда футболистов. Из строя выбыло до 8-10 кандидатов в команду. Как вы отнеслись к этой ситуации?</b>
+</p>
+<p>
+	 - Мы восприняли это как данность. Конечно, такое стечение обстоятельств не обрадует никого, число травмированных игроков нас сильно расстроило. Как следствие, нам пришлось внести определенные коррективы в планы подготовки команды, дополнительно вызывать футболистов в сборную. Хочу подчеркнуть, что ни о каких экспериментах речи не шло, мы действовали, исходя из сложившейся ситуации. При этом у нас появилась возможность посмотреть в деле других кандидатов в национальную сборную.
+</p>
+<p>
+ <b>- Ноябрьский сбор также был примечателен тем, что приглашение в команду получили сразу несколько футболистов, не вызывавшихся в сборную с окончания Евро-2016. В частности, это касается Дмитрия Комбарова, Дениса Глушакова и Александра Кокорина.</b>
+</p>
+<p>
+	 - Мы целенаправленно дали игрокам время отойти от Евро-2016, втянуться в рабочий процесс, набрать форму в своих клубах. Внимательно отслеживаем состояние игроков, самое главное – пригласить игрока в сборную, когда он сам к этому готов. Вызовы игроков в команду должны быть логичными, носить системный поход. Наш тренерский штаб с самых первых дней в сборной России выбрал и придерживается определенной линии работы.
+</p>
+<p>
+ <b>- Насколько тяжело было приспособиться команде к климатическим условиям в Катаре? Температура воздуха в Дохе колебалась около +30℃, в то время, как на большей части России уже наступила зима.</b>
+</p>
+<p>
+	 - Шестого ноября все играли в чемпионате России, потом перелет и десятого ноября - матч с Катаром. Кто-то быстрее восстановился и подготовился, кто-то – медленнее. Физиологию никто еще не отменял, но нельзя обращать внимание только на это. Прежде всего, мы должны концентрироваться на своей работе. Можно сказать, что это был своего рода тест на морально-волевые качества в нестандартных условиях. Не все игроки с ним справились, но это тоже ценная информация, пища для размышлений. У каждого есть свой Катар. Главное после него сделать правильные выводы. В этой связи можно отметить, что вторая игра в ходе ноябрьского сбора с Румынией получилась для нас куда более цельной. Мы выглядели как единая команда, что было заметно с первых минут поединка в Грозном.
+</p>
+<p>
+ <b>- Матч в Катаре начался для нашей команды с быстрого забитого мяча, но завершился поражением. В чем вы видите причины неудачи?</b>
+</p>
+<p>
+	 - Игровая дисциплина в этом матче у нас хромала, отсюда такой результат. Мы могли забить пенальти и завершить поединок со счетом 2:2, но в моем понимании от этого оценка матча сильно не изменилась. Качество игры, выполнения своих обязанностей футболистами было не на должном уровне.
+</p>
+<p>
+ <b>- Насколько сложно было после игры с Катаром подвести команду к матчу с Румынией?</b>
+</p>
+<p>
+	 - Любой проигрыш задевает самолюбие футболистов. У нас было несколько дней на подготовку к матчу с Румынией, которые мы постарались провести с толком. Нам удалось подтянуть физическое состояние игроков, и во встрече с Румынией мы выглядели совсем по-другому, нежели в матче с Катаром. Сказалось и то, что играли дома, при активной поддержке болельщиков. Но самое главное – внутренний настрой игроков, понимание того, что мы хотим. Благодаря этому мы смогли додавить соперника и забить гол в добавленное время. Именно через такие матчи и формируется команда.
+</p>
+<p>
+ <b>- Оба последних домашних матча национальной сборной России прошли при аншлагах в Краснодаре и Грозном. Вам приятно, такое внимание и поддержка со стороны российских поклонников футбола?</b>
+</p>
+<p>
+	 - На первый домашний матч с Ганой пришли 16 тысяч человек, хотя на тот момент еще свежи были воспоминания о Евро-2016. Это уже был хороший показатель, особенно для Москвы. В Краснодаре и Грозном нас встречали полные стадионы. Конечно, это приятно и важно для нас. Мы осознаем, что привлечь болельщиков на трибуны можно только делами - игрой и своими эмоциями - а не словами. К этому мы и стремимся.
+</p>
+<p>
+ <b>- В трех последних матчах сборной России только три футболиста постоянно выходили в стартовом составе – Илья Кутепов, Роман Зобнин и Александр Самедов. Можно сказать, что вы делаете серьезную ставку на этих футболистов?</b>
+</p>
+<p>
+	 - Это важные для нас футболисты. Они были хорошо готовы на тот момент, а их конкуренты травмированы. На ЧМ-2014 и Евро-2016 сборная России была одной из самых возрастных команд, сейчас ситуация меняется, в составе появляется больше молодых игроков. Так получилось, что решать задачу по обновлению сборной, выпало нам, и мы выполняем эту работу с удовольствием.
+</p>
+<p>
+ <b>- Определились ли вы с базовой тактической схемой игры для сборной России?</b>
+</p>
+<p>
+	 - В последней игре с Румынией ребята схватили идею игры. Посмотрим, как это будет выглядеть, когда вернутся в строй все футболисты. Нашей команде предстоит выступление на Кубке Конфедераций-2017 и ЧМ-2018. Мы должны быть конкурентоспособными и эффективными на этих турнирах. Соответственно, нам нужно выбрать модель игры, которая позволит выжать максимум из наших футболистов.
+</p>
+<p>
+ <b>- Что вы думаете о Кубке Конфедераций-2017? Каково ваше мнение о турнире?</b>
+</p>
+<p>
+	 - Позитивно отношусь к Кубку Конфедераций-2017, это будет турнир с высоким уровнем накала. Нам нужны такие игры, чтобы проверить, в правильном ли направлении мы движемся. В такой конкурентной среде футболисты смогут лучше оценить свой уровень и подготовиться к тому, что нас ждет на ЧМ-2018 в России. В краткосрочной перспективе мы рассматриваем Кубок Конфедераций-2017 как самостоятельный, самоценный турнир, а в долгосрочной – как один из самых серьезных этапов подготовки к ЧМ-2018.
+</p>
+<p>
+ <b>- В следующий раз национальная сборная России соберется в марте, а Кубок Конфедераций стартует в июне 2017 года. Вместе с тем, складывается впечатление, что не все понимают, что у национальной сборной осталось совсем немного времени на подготовку к важнейшим для всей страны турнирам. Клубы иной раз задействуют футболистов в играх национального чемпионата, но просят поберечь их в матчах сборной России…</b>
+</p>
+<p>
+	 - У нас осталось не так много времени на подготовку к Кубку Конфедераций-2017 и ЧМ-2018. Понятно, что клубы решают свои задачи, борются за место в турнирной таблице РФПЛ. Иной раз они выпускают на матчи футболистов с незалеченными до конца травмами. Ценой таких жертв они набирают очки, но игроки зачастую выбывают из строя.
+</p>
+<p>
+	 Считаю, что интересы национальной сборной России в преддверии первого домашнего чемпионата мира должны в каких-то моментах превалировать над клубными делами. Всей нашей футбольной семье желательно осознать значимость момента и вместе, с взаимным уважением, двигаться вперед. Игроки большую часть времени находятся в своих командах, приезжая в сборную только на короткие периоды, потому ответственность за их подготовку лежит в основном на клубах. ЧМ-2018 – это уникальное для нашей страны событие, и сборная России должна быть конкурентоспособной на нем.
+</p>
+<p>
+ <b>- Есть ли у вас особые пожелания относительно соперников в оставшихся контрольных матчах до ЧМ-2018?</b>
+</p>
+<p>
+	 - На встрече c президентом РФС Виталием Мутко мы довольно четко расставили акценты относительно спарринг-партнеров в контрольных матчах. Понимаем, что сложно найти соперников высокого уровня в ситуации, когда все европейские сборные задействованы в отборочном цикле чемпионата мира. Никаких капризов со стороны тренерского штаба в этом плане быть не может, ведь сложившаяся ситуация от нас не зависит. Все пожелания необходимо направлять в практическую плоскость. Кстати, мы подробно обсуждали форматы проведения контрольных матчей. В ходе одного сбора есть возможность сыграть две таких встречи, но если мы будем испытывать проблемы с соперниками, то ограничимся одним матчем. Так было в октябре, когда сборная играла с Коста-Рикой в Краснодаре. Ближайший сбор у национальной команды запланирован в марте. О проведении одного спарринга в эти сроки уже есть договоренность, над вторым сейчас работаем.
+</p>
+<p>
+ <b>- Станислав Саламович, что вы пожелаете болельщикам и футболистам сборной России в 2017 году?</b>
+</p>
+<p>
+	 - Уходящий год получился очень насыщенным в футбольном плане. Были и плюсы, и минусы. Национальная сборная России вышла в финальную часть Евро-2016, но не смогла до конца проявить себя на континентальном первенстве. Сейчас у нас постепенно появляются контуры новой команды. Болельщикам желаю хорошо встретить Новый год, оптимизма и счастья, футболистам – здоровья и поменьше травм!
+</p></div>
+	</div>
+
+			<p itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+			Источник:
+							<a itemprop="legalName" href="/out/~www.rfs.ru-2828483108" target="_blank">РФС</a>
+					</p>
+	
+	
+			<div class="widget_tag_cloud clearfix">
+			<div class="tagcloud">
+									<a href="/search/chm-2018/" itemprop="keywords">ЧМ-2018</a>
+									<a href="/search/sbornaya-rossii-futbol/" itemprop="keywords">Сборная России - футбол</a>
+									<a href="/search/stanislav-cherchesov/" itemprop="keywords">Станислав Черчесов</a>
+							</div>
+		</div>
+	
+	<br/>
+	<div class="post-meta">
+							<span class="author">
+				<a href="" title=""
+				   itemprop="author" itemscope itemtype="http://schema.org/Person">
+					<span itemprop="givenName">Спортфакт</span> <span itemprop="familyName"></span>
+				</a>
+			</span>
+				<span itemprop="dateCreated" class="date text-nowrap">19 декабря 2016, 16:47</span>
+	</div>
+
+	<div class="social-media clearfix">
+		<div class="ya-share2"
+			 data-counter=""
+			 data-services="vkontakte,facebook,twitter,odnoklassniki,moimir,gplus,lj"
+		></div>
+	</div>
+
+	<div class="clear"></div>
+	<div class="line"></div>
+
+<div data-cid='741c3808e692429eb5cd58395b152f2f' class="hidden">
+	<div class="post-title" id="comment" >
+		Всего комментариев:
+		<span data-total-items>0</span>
+	</div>
+	<br/>
+
+	<a href="#loadmore" class="btn btn-primary btn-fullwidth mb25" data-more>
+		Загрузить еще
+		<span data-page-size>10</span>
+		из
+		<span data-hidden-items>0</span>
+		<i data-preloader></i>
+	</a>
+
+	<ol class="comments hidden" data-region="list">
+		    <li class="depth-1 last-child" data-wbc-item id="" data-pid="" data-action="edit">
+        <div class="author-avatar">
+                <img alt="" src="//opt-858748.ssl.1c-bitrix-cdn.ru/upload/default/images/avatar.jpg?147585830214786">
+        </div>
+		<div class="comment-author"></div>
+		<div class="comment-date"></div>
+		<div class="comment-text"></div>
+    </li>
+	</ol>
+	<div class="line"></div>
+</div>
+<!--'start_frame_cache_8L39BY'-->	<p>Чтобы оставить комментарий, авторизуйтесь:</p>
+	
+<noindex>
+	<div class="profile">
+		<form name="form_auth" method="post" target="_top" action="/news/cherchesov-sbornaya-rossii-budet-konkurentosposobnoy-na-domashnem-chm-2018/">
+							<input type="hidden" name="backurl" value="/news/cherchesov-sbornaya-rossii-budet-konkurentosposobnoy-na-domashnem-chm-2018/" />
+									<input type="hidden" name="AUTH_FORM" value="Y" />
+			<input type="hidden" name="TYPE" value="AUTH" />
+			<input type="hidden" name="USER_REMEMBER" value="Y" />
+
+			<div class="row">
+				<div class="form-group col-sm-6">
+					<input class="form-control" type="text" name="USER_LOGIN" placeholder="логин" value="">
+				</div>
+				<div class="form-group col-sm-6">
+					<input class="form-control" type="password" name="USER_PASSWORD" placeholder="пароль">
+				</div>
+			</div>
+
+			
+			<div class="form-group">
+				<button type="submit" class="btn btn-default">Вход</button>
+				<a href="/news/cherchesov-sbornaya-rossii-budet-konkurentosposobnoy-na-domashnem-chm-2018/?forgot_password=yes" class="btn btn-link" rel="nofollow">Восстановить пароль</a>
+									<a href="/profile/?register=yes" class="btn btn-link" rel="nofollow">Регистрация</a>
+							</div>
+		</form>
+					
+<div class="enter-social">
+	<div class="enter-social-title">Вход через соцсети:</div>
+	<ul class="social-list">
+					<li><a href="javascript:void(0)" onclick="BX.util.popup('https://www.facebook.com/dialog/oauth?client_id=412116112292146&redirect_uri=https%3A%2F%2Fwww.sportfakt.ru%2Fnews%2Fcherchesov-sbornaya-rossii-budet-konkurentosposobnoy-na-domashnem-chm-2018%2F%3Fauth_service_id%3DFacebook%26check_key%3D4e93fff1c601a3348c5b01a053c03f23%26backurl%3D%252Fnews%252Fcherchesov-sbornaya-rossii-budet-konkurentosposobnoy-na-domashnem-chm-2018%252F&scope=email,publish_actions,user_friends&display=popup', 680, 600)" id="bx_auth_href_formFacebook"><i class="social-icon icon-facebook"></i></a></li>
+					<li><a href="javascript:void(0)" onclick="BX.util.popup('/news/cherchesov-sbornaya-rossii-budet-konkurentosposobnoy-na-domashnem-chm-2018/?ncc=1&auth_service_id=Twitter&check_key=4e93fff1c601a3348c5b01a053c03f23&backurl=%2Fnews%2Fcherchesov-sbornaya-rossii-budet-konkurentosposobnoy-na-domashnem-chm-2018%2F', 800, 450)" id="bx_auth_href_formTwitter"><i class="social-icon icon-twitter"></i></a></li>
+					<li><a href="javascript:void(0)" onclick="BX.util.popup('https://oauth.vk.com/authorize?client_id=5659245&redirect_uri=https%3A%2F%2Fwww.sportfakt.ru%2Fnews%2Fcherchesov-sbornaya-rossii-budet-konkurentosposobnoy-na-domashnem-chm-2018%2F%3Fauth_service_id%3DVKontakte&scope=friends,notify,offline,email&response_type=code&state=site_id%3Ds1%26backurl%3D%252Fnews%252Fcherchesov-sbornaya-rossii-budet-konkurentosposobnoy-na-domashnem-chm-2018%252F%253Fcheck_key%253D4e93fff1c601a3348c5b01a053c03f23%26redirect_url%3D%252Fnews%252Fcherchesov-sbornaya-rossii-budet-konkurentosposobnoy-na-domashnem-chm-2018%252F', 660, 425)" id="bx_auth_href_formVKontakte"><i class="social-icon icon-vkontakte"></i></a></li>
+			</ul>
+</div>
+			</div>
+
+			<a href="/profile/?register=yes" rel="nofollow"></a>
+	
+	<a href="/news/cherchesov-sbornaya-rossii-budet-konkurentosposobnoy-na-domashnem-chm-2018/?forgot_password=yes" rel="nofollow"></a>
+</noindex>
+
+<!--'end_frame_cache_8L39BY'--></div>
+
+
+</section>
+<aside class="sidebar col-xs-12 col-sm-12 col-md-4">
+	<div class="sidebar-inner" id="sidebar">
+		
+
+
+<div class="sidebar-item">
+	<ul class="nav nav-tabs" role="tablist">
+		<li role="presentation" class="active"><a href="#important" aria-controls="popular" role="tab" data-toggle="tab">Главные</a></li>
+		<li role="presentation"><a href="#recent" aria-controls="recent" role="tab" data-toggle="tab">Последние</a></li>
+		<li role="presentation"><a href="#active" aria-controls="active" role="tab" data-toggle="tab">Обсуждаемые</a></li>
+	</ul>
+	<div class="tab-content">
+		<div role="tabpanel" class="tab-pane active" id="important">
+				<div class="media post">
+		<div class="media-body">
+			<div class="h3 post-title"><a href="/news/kokorin-vozglavil-mediareyting-sportsmenov-rossii-za-2016-god/" title="Кокорин возглавил медиарейтинг спортсменов России за 2016 год">Кокорин возглавил медиарейтинг спортсменов России за 2016 год</a></div>
+			<time class="date">19 декабря 2016, 18:22</time>
+		</div>
+	</div>
+	<div class="media post">
+		<div class="media-body">
+			<div class="h3 post-title"><a href="/news/kkhl-sibir-pobedila-rizhskoe-dinamo-i-priblizilas-k-zone-pley-off/" title="КХЛ. &amp;quot;Сибирь&amp;quot; победила рижское &amp;quot;Динамо&amp;quot; и приблизилась к зоне плей-офф">КХЛ. &quot;Сибирь&quot; победила рижское &quot;Динамо&quot; и приблизилась к зоне плей-офф</a></div>
+			<time class="date">19 декабря 2016, 17:47</time>
+		</div>
+	</div>
+	<div class="media post">
+		<div class="media-body">
+			<div class="h3 post-title"><a href="/news/cherchesov-sbornaya-rossii-budet-konkurentosposobnoy-na-domashnem-chm-2018/" title="Черчесов: «Сборная России будет конкурентоспособной на домашнем ЧМ-2018»">Черчесов: «Сборная России будет конкурентоспособной на домашнем ЧМ-2018»</a></div>
+			<time class="date">19 декабря 2016, 16:47</time>
+		</div>
+	</div>
+	<div class="media post">
+		<div class="media-body">
+			<div class="h3 post-title"><a href="/news/ispolnitelnym-direktorom-dinamo-stal-krechetov/" title="Исполнительным директором &amp;quot;Динамо&amp;quot; стал Кречетов">Исполнительным директором &quot;Динамо&quot; стал Кречетов</a></div>
+			<time class="date">19 декабря 2016, 16:25</time>
+		</div>
+	</div>
+	<div class="media post">
+		<div class="media-body">
+			<div class="h3 post-title"><a href="/news/radchenko-zenit-mozhet-spokoyno-dostat-spartak-na-vesnu-krasno-belykh-ne-khvatit/" title="Радченко: &amp;quot;Зенит&amp;quot; может спокойно достать &amp;quot;Спартак&amp;quot;. На весну красно-белых не хватит&amp;quot;">Радченко: &quot;Зенит&quot; может спокойно достать &quot;Спартак&quot;. На весну красно-белых не хватит&quot;</a></div>
+			<time class="date">19 декабря 2016, 16:00</time>
+		</div>
+	</div>
+		</div>
+		<div role="tabpanel" class="tab-pane" id="recent">
+				<div class="media post">
+		<div class="media-body">
+			<div class="h3 post-title"><a href="/news/kante-odna-iz-prichin-pobedy-chelsi-v-apl-v-sezone-2016-17/" title="&amp;quot;Челси&amp;quot; и &amp;quot;Лестер&amp;quot; имеют зеркальную статистику при Канте">&quot;Челси&quot; и &quot;Лестер&quot; имеют зеркальную статистику при Канте</a></div>
+			<time class="date">19 декабря 2016, 19:07</time>
+		</div>
+	</div>
+	<div class="media post">
+		<div class="media-body">
+			<div class="h3 post-title"><a href="/news/kkhl-magnitka-usilitsya-37-letnim-finnom/" title="КХЛ. &amp;quot;Магнитка&amp;quot; усилится 37-летним финном">КХЛ. &quot;Магнитка&quot; усилится 37-летним финном</a></div>
+			<time class="date">19 декабря 2016, 18:51</time>
+		</div>
+	</div>
+	<div class="media post">
+		<div class="media-body">
+			<div class="h3 post-title"><a href="/news/tishkin-razorval-kontrakt-s-tomyu/" title="Тишкин разорвал контракт с «Томью»">Тишкин разорвал контракт с «Томью»</a></div>
+			<time class="date">19 декабря 2016, 18:42</time>
+		</div>
+	</div>
+	<div class="media post">
+		<div class="media-body">
+			<div class="h3 post-title"><a href="/news/kkhl-avangard-dozhal-yokerit-v-overtayme/" title="КХЛ. &amp;quot;Авангард&amp;quot; дожал &amp;quot;Йокерит&amp;quot; в овертайме">КХЛ. &quot;Авангард&quot; дожал &quot;Йокерит&quot; в овертайме</a></div>
+			<time class="date">19 декабря 2016, 18:32</time>
+		</div>
+	</div>
+	<div class="media post">
+		<div class="media-body">
+			<div class="h3 post-title"><a href="/news/trener-kolambusa-tortorella-voshel-v-istoriyu-nkhl/" title="Тренер &amp;quot;Коламбуса&amp;quot; Торторелла вошел в историю НХЛ">Тренер &quot;Коламбуса&quot; Торторелла вошел в историю НХЛ</a></div>
+			<time class="date">19 декабря 2016, 18:12</time>
+		</div>
+	</div>
+		</div>
+		<div role="tabpanel" class="tab-pane" id="active">
+				<div class="media post">
+		<div class="media-body">
+			<div class="h3 post-title"><a href="/news/kubok-pervogo-kanala-ne-smog-pobit-proshlogodniy-rekord-poseshchaemosti/" title="Кубок Первого канала не смог побить прошлогодний рекорд посещаемости">Кубок Первого канала не смог побить прошлогодний рекорд посещаемости</a></div>
+			<time class="date">18 декабря 2016, 19:31</time>
+		</div>
+	</div>
+	<div class="media post">
+		<div class="media-body">
+			<div class="h3 post-title"><a href="/news/datsyuk-otmeniv-translyatsii-pervyy-kanal-nas-razozlil-/" title="Дацюк: «Отменив трансляции, Первый канал нас разозлил» ">Дацюк: «Отменив трансляции, Первый канал нас разозлил» </a></div>
+			<time class="date">18 декабря 2016, 20:01</time>
+		</div>
+	</div>
+	<div class="media post">
+		<div class="media-body">
+			<div class="h3 post-title"><a href="/news/znarok-raz-zanyali-vtoroe-mesto-itogom-kubka-pervogo-kanala-nedovolny-/" title="Знарок: «Раз заняли второе место, итогом Кубка Первого канала недовольны» ">Знарок: «Раз заняли второе место, итогом Кубка Первого канала недовольны» </a></div>
+			<time class="date">18 декабря 2016, 20:34</time>
+		</div>
+	</div>
+	<div class="media post">
+			<div class="media-left">
+				<a href="/news/povetkin-otpravil-v-nokaut-zapasnogo/" title="Поветкин отправил в нокаут запасного">
+					<img class="media-object" src="//opt-858748.ssl.1c-bitrix-cdn.ru/upload/resize_cache/iblock/8b2/50_50_2/8b296234704294a86f2d8fa458a17812.jpg?14820041833030" alt="Поветкин отправил в нокаут запасного">
+				</a>
+			</div>
+		<div class="media-body">
+			<div class="h3 post-title"><a href="/news/povetkin-otpravil-v-nokaut-zapasnogo/" title="Поветкин отправил в нокаут запасного">Поветкин отправил в нокаут запасного</a></div>
+			<time class="date">17 декабря 2016, 22:51</time>
+		</div>
+	</div>
+	<div class="media post">
+		<div class="media-body">
+			<div class="h3 post-title"><a href="/news/igrok-shakhtera-tayson-blizok-k-perekhodu-v-klub-rfpl/" title="Игрок «Шахтера» Тайсон близок к переходу в клуб РФПЛ">Игрок «Шахтера» Тайсон близок к переходу в клуб РФПЛ</a></div>
+			<time class="date">18 декабря 2016, 10:33</time>
+		</div>
+	</div>
+		</div>
+	</div>
+</div>
+
+
+
+	<div class="sidebar-item">
+		<div class="statistic">
+			
+      
+      
+      
+    <div class="statistic-title">Статистика</div>
+<div class="statistic-tabs" data-cid='dc5177bd94b8fe05f65387d2215d9e8d' >
+    <ul data-id="sport-list" class="nav nav-tabs nav-tabs-dark" role="tablist"
+        data-selected-sport="football" >
+                    <li role="presentation" class="active">
+                <a data-competition-default="3"
+                   data-sport="football"
+                   data-target="#panel-dc5177bd94b8fe05f65387d2215d9e8d-football"
+                   href="/statistika/3/"
+                   aria-controls="panel-dc5177bd94b8fe05f65387d2215d9e8d-football" role="tab" data-toggle="tab" aria-expanded="false" >Футбол</a>
+            </li>
+                    <li role="presentation" >
+                <a data-competition-default="711"
+                   data-sport="hockey"
+                   data-target="#panel-dc5177bd94b8fe05f65387d2215d9e8d-hockey"
+                   href="/statistika/711/"
+                   aria-controls="panel-dc5177bd94b8fe05f65387d2215d9e8d-hockey" role="tab" data-toggle="tab" aria-expanded="false" >Хоккей</a>
+            </li>
+                    <li role="presentation" >
+                <a data-competition-default="1516"
+                   data-sport="basketball"
+                   data-target="#panel-dc5177bd94b8fe05f65387d2215d9e8d-basketball"
+                   href="/statistika/1516/"
+                   aria-controls="panel-dc5177bd94b8fe05f65387d2215d9e8d-basketball" role="tab" data-toggle="tab" aria-expanded="false" >Баскетбол</a>
+            </li>
+            </ul>
+    <div data-id="competition-list" class="tab-content tab-content-complex"
+         data-selected-competition="3" >
+                    <div role="tabpanel" class="tab-pane active" style="padding: 0;" id="panel-dc5177bd94b8fe05f65387d2215d9e8d-football">
+                        <div class="dropdown dropdown-competition">
+            <button class="btn dropdown-toggle" type="button" id="dropdown-dc5177bd94b8fe05f65387d2215d9e8d-football" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="true">
+                <span class="active-name">Россия. Премьер-лига</span>
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdown-dc5177bd94b8fe05f65387d2215d9e8d-football">
+                    <li><a data-competition="3" href="/statistika/3/">Россия. Премьер-лига</a></li>
+    <li><a data-competition="746" href="/statistika/746/">Россия. ФНЛ</a></li>
+    <li><a data-competition="15" href="/statistika/15/">Англия. Премьер-лига</a></li>
+    <li><a data-competition="14" href="/statistika/14/">Испания. Примера</a></li>
+    <li><a data-competition="10" href="/statistika/10/">Франция. Лига 1</a></li>
+    <li><a data-competition="11" href="/statistika/11/">Германия. Бундеслига 1</a></li>
+    <li><a data-competition="13" href="/statistika/13/">Италия. Серия А</a></li>
+    <li><a data-competition="605" href="/statistika/605/">Лига чемпионов. Группа А</a></li>
+    <li><a data-competition="606" href="/statistika/606/">Лига чемпионов. Группа В</a></li>
+    <li><a data-competition="607" href="/statistika/607/">Лига чемпионов. Группа С</a></li>
+    <li><a data-competition="608" href="/statistika/608/">Лига чемпионов. Группа D</a></li>
+    <li><a data-competition="602" href="/statistika/602/">Лига чемпионов. Группа Е</a></li>
+    <li><a data-competition="601" href="/statistika/601/">Лига чемпионов. Группа F</a></li>
+    <li><a data-competition="603" href="/statistika/603/">Лига чемпионов. Группа G</a></li>
+    <li><a data-competition="604" href="/statistika/604/">Лига чемпионов. Группа H</a></li>
+    <li><a data-competition="16" href="/statistika/16/">Голландия. Высшая лига</a></li>
+    <li><a data-competition="68" href="/statistika/68/">Португалия. Премьер-лига</a></li>
+    <li><a data-competition="63" href="/statistika/63/">Бельгия. Высшая лига</a></li>
+    <li><a data-competition="64" href="/statistika/64/">Бразилия. Серия А</a></li>
+    <li><a data-competition="749" href="/statistika/749/">Белоруссия. Высшая лига</a></li>
+    <li><a data-competition="126" href="/statistika/126/">Украина. Премьер-лига</a></li>
+    <li><a data-competition="1222" href="/statistika/1222/">ЧМ.Отбор. Европа. Группа 1</a></li>
+    <li><a data-competition="1223" href="/statistika/1223/">ЧМ.Отбор. Европа. Группа 2</a></li>
+    <li><a data-competition="1224" href="/statistika/1224/">ЧМ.Отбор. Европа. Группа 3</a></li>
+    <li><a data-competition="1225" href="/statistika/1225/">ЧМ.Отбор. Европа. Группа 4</a></li>
+    <li><a data-competition="1226" href="/statistika/1226/">ЧМ.Отбор. Европа. Группа 5</a></li>
+    <li><a data-competition="1227" href="/statistika/1227/">ЧМ.Отбор. Европа. Группа 6</a></li>
+    <li><a data-competition="1228" href="/statistika/1228/">ЧМ.Отбор. Европа. Группа 7</a></li>
+    <li><a data-competition="1229" href="/statistika/1229/">ЧМ.Отбор. Европа. Группа 8</a></li>
+    <li><a data-competition="1346" href="/statistika/1346/">ЧМ.Отбор. Европа. Группа 9</a></li>
+            </ul>
+        </div>
+                </div>
+                    <div role="tabpanel" class="tab-pane " style="padding: 0;" id="panel-dc5177bd94b8fe05f65387d2215d9e8d-hockey">
+                        <div class="dropdown dropdown-competition">
+            <button class="btn dropdown-toggle" type="button" id="dropdown-dc5177bd94b8fe05f65387d2215d9e8d-hockey" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="true">
+                <span class="active-name">КХЛ</span>
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdown-dc5177bd94b8fe05f65387d2215d9e8d-hockey">
+                    <li><a data-competition="711" href="/statistika/711/">КХЛ</a></li>
+    <li><a data-competition="1802" href="/statistika/1802/">ВХЛ</a></li>
+    <li><a data-competition="1689" href="/statistika/1689/">МХЛ</a></li>
+    <li><a data-competition="944" href="/statistika/944/">Кубок Первого канала</a></li>
+    <li><a data-competition="717" href="/statistika/717/">НХЛ</a></li>
+            </ul>
+        </div>
+                </div>
+                    <div role="tabpanel" class="tab-pane " style="padding: 0;" id="panel-dc5177bd94b8fe05f65387d2215d9e8d-basketball">
+                        <div class="dropdown dropdown-competition">
+            <button class="btn dropdown-toggle" type="button" id="dropdown-dc5177bd94b8fe05f65387d2215d9e8d-basketball" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="true">
+                <span class="active-name">Единая Лига ВТБ</span>
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdown-dc5177bd94b8fe05f65387d2215d9e8d-basketball">
+                    <li><a data-competition="1516" href="/statistika/1516/">Единая Лига ВТБ</a></li>
+    <li><a data-competition="720" href="/statistika/720/">Евролига</a></li>
+    <li><a data-competition="718" href="/statistika/718/">НБА</a></li>
+            </ul>
+        </div>
+                </div>
+                
+<div class="table-responsive" data-cid='bad6385113474d4955f03e5c265304fe' >
+    <div class="hidden" data-region="list" data-preloader data-fade="true">
+        <table class="table statistic-table" id="standing-list-bad6385113474d4955f03e5c265304fe">
+                <tr>
+            <th></th>
+            <th>Команда</th>
+                <th>И</th>
+
+                <th>О</th>
+
+
+
+    </tr>
+    <tr>
+
+
+            <td>1</td>
+            <td>Спартак М</td>
+                <td>17</td>
+                <td>40</td>
+
+
+    </tr>
+    <tr>
+
+
+            <td>2</td>
+            <td>Зенит</td>
+                <td>17</td>
+                <td>35</td>
+
+
+    </tr>
+    <tr>
+
+
+            <td>3</td>
+            <td>ЦСКА</td>
+                <td>17</td>
+                <td>32</td>
+
+
+    </tr>
+    <tr>
+
+
+            <td>4</td>
+            <td>Терек</td>
+                <td>17</td>
+                <td>28</td>
+
+
+    </tr>
+    <tr>
+
+
+            <td>5</td>
+            <td>Краснодар</td>
+                <td>17</td>
+                <td>28</td>
+
+
+    </tr>
+    <tr>
+
+
+            <td>6</td>
+            <td>Амкар</td>
+                <td>17</td>
+                <td>27</td>
+
+
+    </tr>
+    <tr>
+
+
+            <td>7</td>
+            <td>Уфа</td>
+                <td>17</td>
+                <td>25</td>
+
+
+    </tr>
+    <tr>
+
+
+            <td>8</td>
+            <td>Ростов</td>
+                <td>17</td>
+                <td>25</td>
+
+
+    </tr>
+    <tr>
+
+
+            <td>9</td>
+            <td>Рубин</td>
+                <td>17</td>
+                <td>23</td>
+
+
+    </tr>
+    <tr>
+
+
+            <td>10</td>
+            <td>Локомотив М</td>
+                <td>17</td>
+                <td>23</td>
+
+
+    </tr>
+    <tr>
+
+
+            <td>11</td>
+            <td>Анжи</td>
+                <td>17</td>
+                <td>20</td>
+
+
+    </tr>
+    <tr>
+
+
+            <td>12</td>
+            <td>Крылья Советов</td>
+                <td>17</td>
+                <td>15</td>
+
+
+    </tr>
+    <tr>
+
+
+            <td>13</td>
+            <td>Урал</td>
+                <td>17</td>
+                <td>14</td>
+
+
+    </tr>
+    <tr>
+
+
+            <td>14</td>
+            <td>Оренбург</td>
+                <td>17</td>
+                <td>12</td>
+
+
+    </tr>
+    <tr>
+
+
+            <td>15</td>
+            <td>Арсенал Т</td>
+                <td>17</td>
+                <td>12</td>
+
+
+    </tr>
+    <tr>
+
+
+            <td>16</td>
+            <td>Томь</td>
+                <td>17</td>
+                <td>9</td>
+
+
+    </tr>
+        </table>
+    </div>
+            <a data-detail-link href="#" class="btn btn-primary statistic-btn">Полная таблица</a>
+    </div>    </div>
+</div>		</div>
+	</div>
+
+
+	<div class="sidebar-item">
+		<div class="h3 widget-title">Популярное</div>
+		<div class="tagcloud">
+							<a href="/search/rfpl/" >РФПЛ</a>
+							<a href="/search/khl/" >КХЛ</a>
+							<a href="/search/evro-2016/" >Евро-2016</a>
+							<a href="/search/rio-2016/" >Рио-2016</a>
+							<a href="/search/fk-zenit/" >ФК Зенит</a>
+							<a href="/search/fk-spartak/" >ФК Спартак</a>
+							<a href="/search/pfk-cska/" >ПФК ЦСКА</a>
+							<a href="/search/sbornaya-rossii-futbol/" >Сборная России - футбол</a>
+							<a href="/search/doping/" >Допинг</a>
+							<a href="/search/nhl/" >НХЛ</a>
+							<a href="/search/sbornaya-rossii-hokkej/" >Сборная России - хоккей</a>
+							<a href="/search/fk-rostov/" >ФК Ростов</a>
+							<a href="/search/premer-liga-angliya/" >Премьер-лига Англия</a>
+							<a href="/search/liga-chempionov/" >Лига Чемпионов</a>
+							<a href="/search/fk-lokomotiv/" >ФК Локомотив</a>
+					</div>
+	</div>
+	</div>
+</aside>
+</div><!-- /row -->
+</div><!-- /container -->
+</section>
+<footer class="footer">
+	<div class="bottom-footer clearfix">
+		<div class="footer-wide visible-xs visible-sm">
+			<div class="container">
+				<a class="navbar-brand" href="/" title="Спортфакт"><img src="/local/templates/main/images/header/logo_black.svg"></a>
+			</div>
+		</div>
+		<div class="container">
+			<a class="navbar-brand hidden-xs hidden-sm" href="/" title="Спортфакт"><img
+					src="/local/templates/main/images/header/logo_black.svg"></a>
+
+			
+<form class="navbar-form navbar-right hidden-xs hidden-sm" action="/search/">
+	<div class="form-group">
+		<input class="form-control" placeholder="поиск" name="q" value="">
+	</div>
+</form>			<div class="navbar navbar-right">
+					<ul class="social-list">
+					<li><a href="/out/~facebook" title="Facebook" target="_blank"><i class="social-icon icon-facebook"></i></a></li>
+					<li><a href="/out/~vkontakte" title="Вконтакте" target="_blank"><i class="social-icon icon-vkontakte"></i></a></li>
+					<li><a href="/out/~twitter" title="Twitter" target="_blank"><i class="social-icon icon-twitter"></i></a></li>
+			</ul>
+			</div>
+			<nav class="top-menu clearfix">
+					<ul class="no-bullet inline-list m0">
+					<li>
+									<a href="/redaktsiya/" title="Редакция" >Редакция</a>
+							</li>
+					<li>
+									<a href="/o-proekte/" title="О проекте" >О проекте</a>
+							</li>
+					<li>
+									<a href="/reklama-na-sajte/" title="Реклама на сайте" >Реклама на сайте</a>
+							</li>
+					<li>
+									<a href="/kontakty/" title="Контакты" >Контакты</a>
+							</li>
+			</ul>
+			</nav>
+			<div class="navbar navbar-mb">
+							</div>
+			<div class="navbar navbar-mb">
+					<ul class="social-list">
+					<li><a href="/out/~facebook" title="Facebook" target="_blank"><i class="social-icon icon-facebook"></i></a></li>
+					<li><a href="/out/~vkontakte" title="Вконтакте" target="_blank"><i class="social-icon icon-vkontakte"></i></a></li>
+					<li><a href="/out/~twitter" title="Twitter" target="_blank"><i class="social-icon icon-twitter"></i></a></li>
+			</ul>
+			</div>
+		</div>
+	</div>
+		<div class="container gray">
+		<div class="row row-padded">
+			<div class="col-xs-12">
+					<ul class="footer-menu">
+					<li>
+									<a href="/author/" title="Авторы" >Авторы</a>
+							</li>
+					<li>
+									<a href="/interview/" title="Интервью дня" >Интервью дня</a>
+							</li>
+					<li>
+									<a href="/futbol/" title="Футбол" >Футбол</a>
+							</li>
+					<li>
+									<a href="/hokkej/" title="Хоккей" >Хоккей</a>
+							</li>
+					<li>
+									<a href="/basketbol/" title="Баскетбол" >Баскетбол</a>
+							</li>
+					<li>
+									<a href="/biatlon/" title="Биатлон" >Биатлон</a>
+							</li>
+					<li>
+									<a href="/boks/" title="Бокс" >Бокс</a>
+							</li>
+					<li>
+									<a href="/formula-f1/" title="Формула-1" >Формула-1</a>
+							</li>
+					<li>
+									<a href="/tennis/" title="Теннис" >Теннис</a>
+							</li>
+					<li>
+									<a href="/drugoe/" title="Остальные" >Остальные</a>
+							</li>
+					<li>
+									<a href="/news/" title="Новости" class="active">Новости</a>
+							</li>
+					<li>
+									<a href="/rezultaty/" title="Результаты" >Результаты</a>
+							</li>
+					<li>
+									<a href="/rubriki/" title="Рубрики" >Рубрики</a>
+							</li>
+					<li>
+									<a href="/superfakt/" title="Суперфакты" >Суперфакты</a>
+							</li>
+					<li>
+									<a href="/rubriki/doping/" title="Допинг" >Допинг</a>
+							</li>
+			</ul>
+			</div>
+			<div class="col-xs-12">
+				
+				<p class="copyright">Свидетельство о регистрации СМИ Эл №ФС77-64104 от 18 декабря 2015 г. Выдано Федеральной службой по надзору в
+сфере связи, информационных технологий и массовых коммуникаций. Материалы сайта предназначены для лиц старше 18 лет (18+)</p>				<div class="row footer-bottom">
+					<div class="col-xs-12 col-sm-4">
+						<p class="copyright">
+							Разработка и поддержка – <a target="_blank" href="/out/~webcoalition" title="WebCoalition">WebCoalition</a>
+						</p>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<p class="copyright">
+							
+Спортфакт© 2016 все права защищены						</p>
+					</div>
+					<div class="col-xs-12 col-sm-4 footer-btns">
+						<a class="liveinternet" href="//www.liveinternet.ru/click" target="_blank"><img src="//counter.yadro.ru/logo?50.3" title="LiveInternet" alt="" border="0" width="31" height="31"/></a>
+						<div id="bx-composite-banner"></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</footer>
+<div class="oldie-msg">
+	<div class="container">
+		<p class="browserupgrade">Ваш браузер устарел. Пожалуйста, обновите ваш браузер. </p>
+	</div>
+</div>
+<script type="text/javascript">if(!window.BX)window.BX={message:function(mess){if(typeof mess=='object') for(var i in mess) BX.message[i]=mess[i]; return true;}};</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','SITE_ID':'s1','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1482164243','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'12be4c3909c46c7d9375ba0261e9b419'});</script><script type="text/javascript" src="//opt-858748.ssl.1c-bitrix-cdn.ru/bitrix/cache/js/s1/main/kernel_main/kernel_main.js?1477033311278939"></script>
+<script type="text/javascript" src="//opt-858748.ssl.1c-bitrix-cdn.ru/bitrix/js/main/core/core_db.min.js?14690073125048"></script>
+<script type="text/javascript" src="//opt-858748.ssl.1c-bitrix-cdn.ru/bitrix/js/main/core/core_frame_cache.min.js?146900734411191"></script>
+<script type="text/javascript" src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+<script type="text/javascript" src="//yastatic.net/share2/share.js"></script>
+<script type="text/javascript" src="//opt-858748.ssl.1c-bitrix-cdn.ru/bitrix/cache/js/s1/main/kernel_socialservices/kernel_socialservices.js?14770330081659"></script>
+<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+<script type="text/javascript">BX.setJSList(['/bitrix/js/main/core/core.js?147429753073480','/bitrix/js/main/core/core_ajax.js?147429753321031','/bitrix/js/main/json/json2.min.js?14690063733467','/bitrix/js/main/core/core_ls.js?14690063737365','/bitrix/js/main/core/core_fx.js?14690063739592','/bitrix/js/main/session.js?14690063732511','/bitrix/js/main/core/core_window.js?146900731274754','/bitrix/js/main/core/core_popup.js?146900734729812','/bitrix/js/main/core/core_date.js?146900734434241','/bitrix/js/main/utils.js?146900637319858','/bitrix/js/socialservices/ss.js?14690064701419','/local/templates/main/js/preloader.js?14731899894273','/local/modules/wbc.core/js_libraries/jquery/jquery.latest.js?146900745593106','/local/modules/wbc.core/js_libraries/bxevents/script.js?1469007455578','/local/templates/main/bootstrap/js/bootstrap.min.js?147219811637045','/local/templates/main/vendor/slick/slick.min.js?147219811640143','/local/templates/main/vendor/dotdotdot/jquery.dotdotdot.min.js?14721981166287','/local/templates/main/js/jquery.masonry.min.js?147343211623601','/local/templates/main/vendor/isMobile.min.js?14738679241799','/local/templates/main/js/main.js?14775716624931','/local/modules/wbc.core/js_libraries/jquery/jquery.cookie.js?14690074552142','/local/modules/wbc.core/js_libraries/template_manager/template.manager.js?14690074551142','/local/modules/wbc.core/js_libraries/mustache/mustache.js?146900745515999','/local/modules/wbc.core/js_libraries/underscore/underscore.js?146900745515626','/local/modules/wbc.core/js_libraries/backbone/backbone.js?146900745523319','/local/modules/wbc.core/js_libraries/backbone/backbone.marionette.js?146900745544915','/local/modules/wbc.core/js_libraries/backbone/backbone.bitrix.js?14721981284353','/local/modules/wbc.core/js_libraries/backbone/backbone.bitrix.list.js?147384449812434','/local/modules/wbc.core/js_libraries/start.app.js?1469007455792','/local/modules/wbc.core/js/wbc.js?14690074551425','/local/templates/main/components/bitrix/menu/main/script.js?1475914432937','/local/templates/main/vendor/jquery.easymenu.js?14756915423809']); </script>
+<script type="text/javascript">BX.setCSSList(['/bitrix/js/main/core/css/core.css?14690063732854','/bitrix/js/main/core/css/core_popup.css?147429753329699','/bitrix/js/main/core/css/core_date.css?14690073449657','/local/templates/main/css/foundation.css?147559737783867','/local/templates/main/css/style.css?147704095045722','/local/templates/main/css/responsive.css?14738679245412','/local/templates/main/vendor/slick/slick.css?14721981161767','/local/templates/main/styles.css?1480586579272618']); </script>
+
+
+<script type="text/javascript" src="//opt-858748.ssl.1c-bitrix-cdn.ru/bitrix/cache/js/s1/main/template_c1d89bb470d1c86444268e8728754d41/template_c1d89bb470d1c86444268e8728754d41.js?1477571667340617"></script>
+<script type="text/javascript" src="//opt-858748.ssl.1c-bitrix-cdn.ru/bitrix/cache/js/s1/main/page_b6b272595922c71afea4ef2e021981a7/page_b6b272595922c71afea4ef2e021981a7.js?14770330084531"></script>
+
+<script type='text/javascript'>
+			(window.WBC || top.WBC).componentConfRegistry({ '8fb7d720b3b0a2b3d22b52b5ce929ae8' : {"compiledTemplates":{"empty":"<p class=\"events-not-found\">\n    \u0418\u0433\u0440 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e\n<\/p>","items":"{{#result}}\r\n\t<div class=\"events-col\">\r\n    {{#COUPLE}}\r\n\t\t<a href=\"{{DETAIL_PAGE_URL}}\" class=\"event {{^STATUS}}event-not-started{{\/STATUS}}\" data-time=\"{{TIMESTAMP}}\">\r\n\t\t\t<table class=\"event-table\">\r\n\t\t\t\t<tr class=\"event-head\">\r\n                    <th class=\"event-sport\">{{SPORT_NAME}}<\/th>\r\n                    <th class=\"event-name\" colspan=\"4\"><span>{{COMPETITION_NAME}}<\/span><\/th>\r\n                <\/tr>\r\n                <tr class=\"event-subhead\">\r\n\t\t\t\t\t{{#SCORE_TABLE.HEADERS}}\r\n\t\t\t\t\t\t<td>{{.}}<\/td>\r\n\t\t\t\t\t{{\/SCORE_TABLE.HEADERS}}\r\n                <\/tr>\r\n\t\t\t\t<tr class=\"event-body\">\r\n\t\t\t\t\t<td class=\"event-status\">\r\n\t\t\t\t\t\t<span><span data-time=\"{{TIMESTAMP}}\">{{DATE}} {{TIME}}<\/span><br\/>\r\n\t\t\t\t\t\t\t{{STATUS_NAME}}\r\n\t\t\t\t\t\t<\/span>\r\n\t\t\t\t\t<\/td>\r\n\t\t\t\t\t<td class=\"event-team\">\r\n\t\t\t\t\t\t<span>{{TEAM_LIST.0}}<\/span>\r\n\t\t\t\t\t\t<span>{{TEAM_LIST.1}}<\/span>\r\n\t\t\t\t\t<\/td>\r\n\t\t\t\t\t{{#SCORE_TABLE.SCORE}}\r\n\t\t\t\t\t\t<td class=\"event-result\">\r\n\t\t\t\t\t\t\t<table class=\"result-table\">\r\n\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t{{#SCORE_TABLE.TEAM_1.SCORE}}<td>{{.}}<\/td>{{\/SCORE_TABLE.TEAM_1.SCORE}}\r\n\t\t\t\t\t\t\t\t<\/tr>\r\n\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t{{#SCORE_TABLE.TEAM_2.SCORE}}<td>{{.}}<\/td>{{\/SCORE_TABLE.TEAM_2.SCORE}}\r\n\t\t\t\t\t\t\t\t<\/tr>\r\n\t\t\t\t\t\t\t<\/table>\r\n\t\t\t\t\t\t<\/td>\r\n\t\t\t\t\t{{\/SCORE_TABLE.SCORE}}\r\n\r\n\t\t\t\t\t{{#SCORE_TABLE.PEN}}<td><span class=\"orange\">{{SCORE_TABLE.TEAM_1.PEN}}<\/span><span class=\"orange\">{{SCORE_TABLE.TEAM_2.PEN}}<\/span><\/td>{{\/SCORE_TABLE.PEN}}\r\n\r\n\t\t\t\t\t<td><span>{{SCORE_TABLE.TEAM_1.RESULT}}<\/span><span>{{SCORE_TABLE.TEAM_2.RESULT}}<\/span><\/td>\r\n\t\t\t\t<\/tr>\r\n            <\/table>\r\n\t\t<\/a>\r\n    {{\/COUPLE}}\r\n\t<\/div>\r\n{{\/result}}","filter_item":"{{#result}}\r\n    <li {{#selected}}class=\"active\"{{\/selected}}>\r\n        <a href=\"#{{id}}\">\r\n            <i data-value=\"{{id}}\" class=\"icon icon-{{id}}\"><\/i>\r\n        <\/a>\r\n    <\/li>\r\n{{\/result}}","item":"{{#result}}\r\n\t{{#COLUMN_OPEN}}<div class=\"events-col\">{{\/COLUMN_OPEN}}\r\n\t\t<a href=\"{{DETAIL_PAGE_URL}}\" class=\"event {{^STATUS}}event-not-started{{\/STATUS}}\" data-time=\"{{TIMESTAMP}}\">\r\n\t\t\t<table class=\"event-table\">\r\n\t\t\t\t<tr class=\"event-head\">\r\n                    <th class=\"event-sport\">{{SPORT_NAME}}<\/th>\r\n                    <th class=\"event-name\" colspan=\"4\"><span>{{COMPETITION_NAME}}<\/span><\/th>\r\n                <\/tr>\r\n                <tr class=\"event-subhead\">\r\n\t\t\t\t\t{{#SCORE_TABLE.HEADERS}}\r\n\t\t\t\t\t\t<td>{{.}}<\/td>\r\n\t\t\t\t\t{{\/SCORE_TABLE.HEADERS}}\r\n                <\/tr>\r\n\t\t\t\t<tr class=\"event-body\">\r\n\t\t\t\t\t<td class=\"event-status\">\r\n\t\t\t\t\t\t<span><span data-time=\"{{TIMESTAMP}}\">{{TIME}}<\/span><br\/>\r\n\t\t\t\t\t\t\t{{STATUS_NAME}}\r\n\t\t\t\t\t\t<\/span>\r\n\t\t\t\t\t<\/td>\r\n\t\t\t\t\t<td class=\"event-team\">\r\n\t\t\t\t\t\t<span>{{TEAM_LIST.0}}<\/span>\r\n\t\t\t\t\t\t<span>{{TEAM_LIST.1}}<\/span>\r\n\t\t\t\t\t<\/td>\r\n\t\t\t\t\t{{#SCORE_TABLE.SCORE}}\r\n\t\t\t\t\t\t<td class=\"event-result\">\r\n\t\t\t\t\t\t\t<table class=\"result-table\">\r\n\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t{{#SCORE_TABLE.TEAM_1.SCORE}}<td>{{.}}<\/td>{{\/SCORE_TABLE.TEAM_1.SCORE}}\r\n\t\t\t\t\t\t\t\t<\/tr>\r\n\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t{{#SCORE_TABLE.TEAM_2.SCORE}}<td>{{.}}<\/td>{{\/SCORE_TABLE.TEAM_2.SCORE}}\r\n\t\t\t\t\t\t\t\t<\/tr>\r\n\t\t\t\t\t\t\t<\/table>\r\n\t\t\t\t\t\t<\/td>\r\n\t\t\t\t\t{{\/SCORE_TABLE.SCORE}}\r\n\r\n\t\t\t\t\t{{#SCORE_TABLE.PEN}}<td><span class=\"orange\">{{SCORE_TABLE.TEAM_1.PEN}}<\/span><span class=\"orange\">{{SCORE_TABLE.TEAM_2.PEN}}<\/span><\/td>{{\/SCORE_TABLE.PEN}}\r\n\r\n\t\t\t\t\t<td><span>{{SCORE_TABLE.TEAM_1.RESULT}}<\/span><span>{{SCORE_TABLE.TEAM_2.RESULT}}<\/span><\/td>\r\n\t\t\t\t<\/tr>\r\n            <\/table>\r\n\t\t<\/a>\r\n\t{{#COLUMN_CLOSE}}<\/div>{{\/COLUMN_CLOSE}}\r\n{{\/result}}"},"templates":{"empty":"\/local\/templates\/main\/components\/main\/currentmatch.list\/.default\/empty.mustache","items":"\/local\/templates\/main\/components\/main\/currentmatch.list\/.default\/items.mustache","filter_item":"\/local\/templates\/main\/components\/main\/currentmatch.list\/.default\/filter_item.mustache","item":"\/local\/templates\/main\/components\/main\/currentmatch.list\/.default\/item.mustache"},"url":".\/","source":{"NAVIGATION_NUM":null,"PAGE_SIZE":null,"TOTAL_PAGES":null},"today":1482094800} });
+		</script>
+<script type="text/javascript">(function(){var CID ='8fb7d720b3b0a2b3d22b52b5ce929ae8';"use strict";
+if (typeof window.MatchListApp == "undefined") {
+
+	window.MatchListApp = new Marionette.Application();
+//noinspection JSUnresolvedVariable
+	config = WBC.componentConfRegistry[CID];
+
+	var MatchFilterContainer = Marionette.LayoutView.extend({
+		el: ".events-filter",
+		collect: {},
+		views: {},
+		regions: {},
+		sport_type: null,
+		ui: {
+			filterItem: "li a"
+		},
+		events: {
+			"click @ui.filterItem": "onClickFilterItem"
+		},
+		onClickFilterItem: function(e) {
+			var self = this,
+				$current = $(e.target),
+				value = $current.data("value"),
+				currentSelectedModel, nextSelectedModel, currentId, nextId;
+
+			currentSelectedModel = self.collection.findWhere({"selected": true});
+			nextSelectedModel = self.collection.get(value);
+
+			if (typeof currentSelectedModel !== "undefined") {
+				currentId = currentSelectedModel.get("id");
+				currentSelectedModel.set("selected", false);
+			}
+
+			if (typeof nextSelectedModel !== "undefined") {
+				nextId = nextSelectedModel.get("id");
+				if (nextId !== currentId) {
+					nextSelectedModel.set("selected", true);
+				} else {
+					nextSelectedModel.set("selected", false);
+					nextId = null;
+				}
+				window.MatchListApp.view.sport_type = nextId;
+				window.MatchListApp.view.getItems(true, true, {sport_type: nextId});
+				self.view.render();
+			}
+
+			return false;
+		},
+		initialize: function(options) {
+			var self = this;
+
+			self.collection = new Backbone.Collection(options.sports, {});
+			//noinspection JSUnresolvedVariable
+			self.view = new Marionette.BitrixItemsListView({
+				el: ".events-filter",
+				collection: self.collection,
+				template: config.compiledTemplates.filter_item
+			});
+
+			self.view.$el.empty();
+			self.view.render();
+		}
+
+	});
+
+//noinspection JSUnusedGlobalSymbols
+	var BitrixMatchView = Marionette.ItemView.extend({
+		template: "",
+		tagName: "div",
+		onRender: function() {
+			if (this.$el.hasClass("slick-slide")) {
+				this.$el.html(this.$el.children().children());
+			} else {
+				this.$el = this.$el.children();
+				this.$el.unwrap();
+			}
+			this.setElement(this.$el);
+		},
+		initialize: function() {
+			this.model.on("change", function() {
+				this.render();
+			}, this);
+		}
+	});
+
+
+	(function() {
+
+		$(document).on("itemsLoaded", function() {
+			$(window).trigger("resize");
+			$(window).trigger("update");
+			$(document).trigger("adminUpdate.wbc");
+		});
+
+		//noinspection JSValidateTypes
+		var AppLayoutView = Backbone.Marionette.LayoutView.extend({
+			el: "#currentmatch-app",
+			regions: {
+				list: "#match-region"
+			},
+			loading: false,
+			app: null,
+			templates: {},
+			gridCount: null,
+			filter: null,
+			onClickLoadMore: function() {
+				if (!this.loading) {
+					this.loading = true;
+					this.getItems(false, false, this.filter || null);
+				}
+				return false;
+			},
+			unslick: function($el) {
+				$el.slick("unslick");
+			},
+			slick: function($el) {
+				if ($el.hasClass("slick-initialized")) {
+					this.unslick(this.itemListView.$el);
+				}
+
+				var currentDateTimestamp = config.today,
+					slideIndex = 0;
+
+				if (this.itemList) {
+					_.each(this.itemList.models, function(model, i) {
+						var couple = model.get("COUPLE");
+						_.each(couple, function(item) {
+							var timestamp = item.TIMESTAMP;
+							if (!slideIndex) {
+								if (currentDateTimestamp <= timestamp) {
+									slideIndex = i;
+								}
+							}
+						});
+					});
+				}
+
+				$el.slick({
+					slidesToShow: 3,
+					slidesToScroll: 3,
+					swipeToSlide: true,
+					infinite: false,
+					initialSlide: (this.itemList.models.length > 3) ? ((slideIndex > this.itemList.models.length -3) ? slideIndex -2 : slideIndex) : 0,
+					responsive: [
+						{
+							breakpoint: 992,
+							settings: {
+								slidesToShow: 2,
+								slidesToScroll: 2,
+								initialSlide: (this.itemList.models.length > 2) ? ((slideIndex > this.itemList.models.length -2) ? slideIndex -1 : slideIndex) : 0
+							}
+						},
+						{
+							breakpoint: 767,
+							settings: {
+								slidesToShow: 1,
+								slidesToScroll: 1,
+								initialSlide: slideIndex
+							}
+						}
+					]
+				});
+			},
+			getItems: function(reset, remove, filter, auto) {
+				if (!this.loading) {
+					this.loading = true;
+					if (typeof filter !== "undefined") {
+						this.filter = filter;
+					} else {
+						filter = {};
+					}
+					if (reset) {
+						if (this.itemListView.$el.hasClass("slick-initialized")) {
+							this.unslick(this.itemListView.$el);
+							this.itemListView.$el.empty();
+						}
+					}
+
+					this.itemList.getMore(reset, remove, filter, auto);
+				}
+			},
+			initialize: function() {
+				//noinspection JSUnresolvedVariable
+				var cid = CID, self = this, $curEvents = $("#cur-events");
+
+				//noinspection JSUnresolvedVariable
+				this.itemList = new Backbone.BitrixItemsList([], {
+					appCid: cid,
+					url: config.url,
+					nextPage: 1,
+					navigationNum: parseInt(config.source.NAVIGATION_NUM, 10),
+					pageSize: parseInt(config.source.PAGE_SIZE, 10),
+					totalPages: parseInt(config.source.TOTAL_PAGES, 10)
+				});
+
+				//noinspection JSUnresolvedVariable
+				this.itemListView = new Marionette.BitrixItemsListView({
+					el: "#events-slider",
+					emptyView: Marionette.BitrixItemView,
+					emptyViewOptions: {
+						template: config.compiledTemplates.empty
+					},
+					collection: this.itemList,
+					childView: BitrixMatchView,
+					childViewOptions: {
+						template: config.compiledTemplates.items
+					}
+				});
+
+				this.itemList.on("sync", function(itemList, response) {
+					if (!this.filterView) {
+						this.filterView = new MatchFilterContainer({
+							"sports": response["SPORTS"]
+						});
+					} else {
+						//this.filterView.collection.reset(response["SPORTS"]);
+					}
+					this.loading = false;
+				}, this);
+
+
+				// collection events
+				this.itemListView.on("childview:show", function(childView) {
+					if (this.children.length == this.collection.length) {
+						if (childView.cid == (this.children.last()).cid) {
+							$(document).trigger("itemsLoaded");
+							self.slick(self.itemListView.$el);
+						}
+					}
+				});
+
+				this.itemListView.on("childview:destroy", function(childView) {
+					if (this.children.length == this.collection.length) {
+						if (this.children.length) {
+							$(document).trigger("itemsLoaded");
+							self.slick(self.itemListView.$el);
+						}
+					}
+				});
+
+				this.getRegion("list").show(this.itemListView);
+				this.getItems(true, false, {});
+				self.itemListView.$el.css("opacity", 0);
+
+				$curEvents.on('hidden.bs.collapse', function() {
+					$.cookie("hide_events", true, {path: "/", expires: 5 * 365});
+					self.hideEvents = $.cookie("hide_events");
+					self.itemListView.$el.css("opacity", 0);
+				});
+
+				$curEvents.on('shown.bs.collapse', function() {
+					$.cookie("hide_events", false, {path: "/", expires: 5 * 365});
+					self.hideEvents = $.cookie("hide_events");
+
+					if (self.itemListView.$el.slick) {
+						self.itemListView.$el.slick("setOption", false, false, true);
+						self.itemListView.$el.css("opacity", 1);
+					}
+				});
+
+				self.hideEvents = $.cookie("hide_events");
+
+				if (self.hideEvents === "true") {
+					$curEvents.collapse("hide");
+				} else {
+					$curEvents.collapse("show");
+				}
+
+				setInterval(function() {
+					self.itemList.nextPage = 1;
+					var filter = {};
+
+					if (self.sport_type) {
+						filter = {
+							sport_type: self.sport_type
+						};
+					}
+					self.getItems(false, true, filter);
+				}, 30000);
+
+				if ($curEvents.hasClass("in")) {
+					self.itemListView.$el.css("opacity", 1);
+				}
+			}
+		});
+
+		window.MatchListApp.on("start", function() {
+			this.view = new AppLayoutView({app: this});
+		});
+
+		$(document).ready(function() {
+			window.MatchListApp.start();
+
+			$('#cur-events').removeClass('initial');
+
+			/*$('[data-popover]').each(function(i, elem) {
+				var id = $(elem).data('popover');
+				$(elem).webuiPopover({
+					url: id,
+					trigger: 'hover',
+					placement: 'bottom'
+				});
+			});*/
+		});
+	})();
+}
+})();</script>
+
+<script data-lang="true">
+			(window.BX||top.BX).message({"MENU_SELECTED_ITEM":"642"});
+		</script>
+<script type='text/javascript'>
+			(window.WBC || top.WBC).componentConfRegistry({ '741c3808e692429eb5cd58395b152f2f' : {"compiledTemplates":{"item":"{{#result}}\n    <li class=\"depth-1 last-child\" data-wbc-item id=\"{{DOM_ELEMENT_ID}}\" data-pid=\"{{ID}}\" data-action=\"edit\">\n        <div class=\"author-avatar\">\n            {{#USER_PHOTO.SRC}}\n                <img alt=\"{{USER_NAME}}\" src=\"{{USER_PHOTO.SRC}}\">\n            {{\/USER_PHOTO.SRC}}\n            {{^USER_PHOTO.SRC}}\n                <img alt=\"{{USER_NAME}}\" src=\"\/upload\/default\/images\/avatar.jpg\">\n            {{\/USER_PHOTO.SRC}}\n        <\/div>\n\t\t<div class=\"comment-author\">{{#USER_NAME}}{{USER_NAME}}{{\/USER_NAME}}{{^USER_NAME}}{{USER_LOGIN}}{{\/USER_NAME}}<\/div>\n\t\t<div class=\"comment-date\">{{UF_DATE_TIME_LOWERCASE}}<\/div>\n\t\t<div class=\"comment-text\">{{{UF_TEXT}}}<\/div>\n    <\/li>\n{{\/result}}"},"templates":{"item":"\/local\/templates\/main\/components\/main\/comment.list\/.default\/item.mustache"},"url":".\/","source":{"NAVIGATION_NAME":"page","PAGE_SIZE":10,"TOTAL_PAGES":0},"mode":"more"} });
+		</script>
+<script type="text/javascript">(function(){var CID ='741c3808e692429eb5cd58395b152f2f';"use strict";
+
+/**
+ * @global CID Script wrapped by anonymous function, CID not global for DOM
+ */
+var app = new Marionette.BitrixItemListApplication;
+var CommentCollectionViewClass = Marionette.BitrixItemsListView.extend({
+	attachHtml: function(collectionView, childView) {
+		if (collectionView.isBuffering) {
+			collectionView._bufferedChildren = [childView].concat(collectionView._bufferedChildren.slice(0));
+		} else {
+			this.$el.prepend(childView.el);
+		}
+	}
+});
+
+Backbone.BitrixCommentModel = Backbone.Model.extend({
+	idAttribute: "ID",
+	url: function() {
+		return "./";
+	},
+	initialize: function() {
+		this.url = "./";
+		var showCounter = this.get("SHOW_COUNTER");
+		if (showCounter) {
+			this.set("SHOW_COUNTER", +showCounter);
+		}
+	}
+});
+
+app.on("before:start", function() {
+	this.collectionConf.model = Backbone.BitrixCommentModel;
+});
+
+app.on("start", function() {
+
+	this.layout.itemsLoaded = function() {
+		$(document).trigger("adminUpdate.wbc");
+	};
+
+	this.collection.on("sync", function(model, resp) {
+		
+		if (2 == model.nextPage && 0 == model.totalPages) {
+			model.nextPage = 1;
+			model.totalPages = 1;
+		}
+
+		if (resp.TOTAL_ITEMS) {
+			if (app.layout.$el.hasClass("hidden")) {
+				app.layout.$el.removeClass("hidden");
+			}
+			$("[data-total-items]").html(resp.TOTAL_ITEMS);
+		}
+
+		$("[data-hidden-items]").text(resp.HIDDEN_ITEMS);
+		if (model.pageSize >= resp.HIDDEN_ITEMS) {
+			$("[data-page-size]").text(resp.HIDDEN_ITEMS);
+		} else {
+			$("[data-page-size]").text(model.pageSize);
+		}
+	});
+});
+
+window.commentApp = app;
+
+$(document).ready(function init() {
+	if ($("[data-cid='"+ CID +"']").length) {
+		window.commentApp.start({
+			collectionViewClass: CommentCollectionViewClass,
+			cid: CID,
+			load: true,
+			preloader: false
+		});
+
+		window.commentApp.trigger("init");
+	} else {
+		$(document).off("onAjaxSuccess.bx", init);
+		$(document).on("onAjaxSuccess.bx", init);
+	}
+});})();</script>
+
+<script type='text/javascript'>
+			(window.WBC || top.WBC).componentConfRegistry({ 'bad6385113474d4955f03e5c265304fe' : {"compiledTemplates":{"item":"{{#result}}\r\n    <tr>\r\n        {{#HEADS}}\r\n            <th>{{n}}<\/th>\r\n            <th>{{Club}}<\/th>\r\n            {{#M}}\r\n                <th>{{M}}<\/th>\r\n            {{\/M}}\r\n            {{#P}}\r\n                <th>{{P}}<\/th>\r\n            {{\/P}}\r\n            {{#W}}\r\n                <th>{{W}}<\/th>\r\n            {{\/W}}\r\n            {{#WO}}\r\n                <th>{{WO}}<\/th>\r\n            {{\/WO}}\r\n            {{#WP}}\r\n                <th>{{WP}}<\/th>\r\n            {{\/WP}}\r\n            {{#LP}}\r\n                <th>{{LP}}<\/th>\r\n            {{\/LP}}\r\n            {{#D}}\r\n                <th>{{D}}<\/th>\r\n            {{\/D}}\r\n            {{#L}}\r\n                <th>{{L}}<\/th>\r\n            {{\/L}}\r\n            {{#LO}}\r\n                <th>{{LO}}<\/th>\r\n            {{\/LO}}\r\n            {{#FA1}}\r\n                <th>{{FA1}}<\/th>\r\n            {{\/FA1}}\r\n            {{#FA2}}\r\n                <th>{{FA2}}<\/th>\r\n            {{\/FA2}}\r\n\r\n            {{#F}}\r\n                <th>{{F}}<\/th>\r\n            {{\/F}}\r\n            {{#A}}\r\n                <th>{{A}}<\/th>\r\n            {{\/A}}\r\n            {{#F-A}}\r\n                <th>{{F-A}}<\/th>\r\n            {{\/F-A}}\r\n            {{#Pnt}}\r\n                <th>{{Pnt}}<\/th>\r\n            {{\/Pnt}}\r\n            {{#Per}}\r\n                <th>{{Per}}<\/th>\r\n            {{\/Per}}\r\n        {{\/HEADS}}\r\n\r\n        {{#GROUP}}\r\n            <td colspan=\"{{COLSPAN}}\" >{{NAME}}<\/td>\r\n        {{\/GROUP}}\r\n\r\n        {{#UF_TABLE}}\r\n            <td>{{n}}<\/td>\r\n            <td>{{Club}}<\/td>\r\n            {{#M}}\r\n                <td>{{M}}<\/td>\r\n            {{\/M}}\r\n            {{#P}}\r\n                <td>{{P}}<\/td>\r\n            {{\/P}}\r\n            {{#W}}\r\n                <td>{{W}}<\/td>\r\n            {{\/W}}\r\n            {{#WO}}\r\n                <td>{{WO}}<\/td>\r\n            {{\/WO}}\r\n            {{#WP}}\r\n                <td>{{WP}}<\/td>\r\n            {{\/WP}}\r\n            {{#LP}}\r\n                <td>{{LP}}<\/td>\r\n            {{\/LP}}\r\n            {{#D}}\r\n                <td>{{D}}<\/td>\r\n            {{\/D}}\r\n            {{#L}}\r\n                <td>{{L}}<\/td>\r\n            {{\/L}}\r\n            {{#LO}}\r\n                <td>{{LO}}<\/td>\r\n            {{\/LO}}\r\n            {{#FA1}}\r\n                <td>{{FA1}}<\/td>\r\n            {{\/FA1}}\r\n            {{#FA2}}\r\n                <td>{{FA2}}<\/td>\r\n            {{\/FA2}}\r\n            {{#F}}\r\n                <td>{{F}}<\/td>\r\n            {{\/F}}\r\n            {{#A}}\r\n                <td>{{A}}<\/td>\r\n            {{\/A}}\r\n            {{#F-A}}\r\n                <td>{{F-A}}<\/td>\r\n            {{\/F-A}}\r\n            {{#Pnt}}\r\n                <td>{{Pnt}}<\/td>\r\n            {{\/Pnt}}\r\n            {{#Per}}\r\n                <td>{{Per}}<\/td>\r\n            {{\/Per}}\r\n\r\n        {{\/UF_TABLE}}\r\n\r\n        {{#LEGEND}}\r\n        <td colspan=\"{{COLSPAN}}\" >\r\n            {{#M}}\r\n                <b>\u041c<\/b> \u2013 {{M}},\r\n            {{\/M}}\r\n            {{#P}}\r\n                <b>\u0418<\/b> \u2013 {{P}},\r\n            {{\/P}}\r\n            {{#W}}\r\n                <b>\u0412<\/b> \u2013 {{W}},\r\n            {{\/W}}\r\n            {{#WO}}\r\n                <b>\u0412\u041e<\/b> \u2013 {{WO}},\r\n            {{\/WO}}\r\n            {{#WP}}\r\n                <b>\u0412\u0411<\/b> \u2013 {{WP}},\r\n            {{\/WP}}\r\n            {{#LP}}\r\n                <b>\u041f\u0411<\/b> \u2013 {{LP}},\r\n            {{\/LP}}\r\n            {{#D}}\r\n                <b>\u041d<\/b> \u2013 {{D}},\r\n            {{\/D}}\r\n            {{#L}}\r\n                <b>\u041f<\/b> \u2013 {{L}},\r\n            {{\/L}}\r\n            {{#LO}}\r\n                <b>\u041f\u041e<\/b> \u2013 {{LO}},\r\n            {{\/LO}}\r\n            {{#FA1}}\r\n                <b>\u0417\u0430\u0431<\/b> \u2013 {{FA1}},\r\n            {{\/FA1}}\r\n            {{#FA2}}\r\n                <b>\u041f\u0440\u043e\u043f<\/b> \u2013 {{FA2}},\r\n            {{\/FA2}}\r\n            {{#F}}\r\n                <b>\u0417\u0430\u0431<\/b> \u2013 {{F}},\r\n            {{\/F}}\r\n            {{#A}}\r\n                <b>\u041f\u0440\u043e\u043f<\/b> \u2013 {{A}},\r\n            {{\/A}}\r\n            {{#F-A}}\r\n                <b>\u0420\u0417\u041f<\/b> \u2013 {{F-A}},\r\n            {{\/F-A}}\r\n            {{#Pnt}}\r\n                <b>\u041e<\/b> \u2013 {{Pnt}}\r\n            {{\/Pnt}}\r\n            {{#Per}}\r\n                <b>%<\/b> \u2013 {{Per}}\r\n            {{\/Per}}\r\n        <\/td>\r\n        {{\/LEGEND}}\r\n    <\/tr>\r\n{{\/result}}"},"templates":{"item":"\/local\/templates\/main\/components\/main\/statistics\/.default\/main\/standing.show\/.default\/item.mustache"},"url":".\/","source":{"NAVIGATION_NUM":null,"PAGE_SIZE":null,"TOTAL_PAGES":null},"items":[{"HEADS":{"n":"","Club":"\u041a\u043e\u043c\u0430\u043d\u0434\u0430","P":"\u0418","Pnt":"\u041e"}},{"UF_STANDING_XML_ID":"3","UF_N":"1","UF_CLUB":"\u0421\u043f\u0430\u0440\u0442\u0430\u043a \u041c","UF_TABLE":{"n":"1","Club":"\u0421\u043f\u0430\u0440\u0442\u0430\u043a \u041c","P":"17","Pnt":"40"}},{"UF_STANDING_XML_ID":"3","UF_N":"2","UF_CLUB":"\u0417\u0435\u043d\u0438\u0442","UF_TABLE":{"n":"2","Club":"\u0417\u0435\u043d\u0438\u0442","P":"17","Pnt":"35"}},{"UF_STANDING_XML_ID":"3","UF_N":"3","UF_CLUB":"\u0426\u0421\u041a\u0410","UF_TABLE":{"n":"3","Club":"\u0426\u0421\u041a\u0410","P":"17","Pnt":"32"}},{"UF_STANDING_XML_ID":"3","UF_N":"4","UF_CLUB":"\u0422\u0435\u0440\u0435\u043a","UF_TABLE":{"n":"4","Club":"\u0422\u0435\u0440\u0435\u043a","P":"17","Pnt":"28"}},{"UF_STANDING_XML_ID":"3","UF_N":"5","UF_CLUB":"\u041a\u0440\u0430\u0441\u043d\u043e\u0434\u0430\u0440","UF_TABLE":{"n":"5","Club":"\u041a\u0440\u0430\u0441\u043d\u043e\u0434\u0430\u0440","P":"17","Pnt":"28"}},{"UF_STANDING_XML_ID":"3","UF_N":"6","UF_CLUB":"\u0410\u043c\u043a\u0430\u0440","UF_TABLE":{"n":"6","Club":"\u0410\u043c\u043a\u0430\u0440","P":"17","Pnt":"27"}},{"UF_STANDING_XML_ID":"3","UF_N":"7","UF_CLUB":"\u0423\u0444\u0430","UF_TABLE":{"n":"7","Club":"\u0423\u0444\u0430","P":"17","Pnt":"25"}},{"UF_STANDING_XML_ID":"3","UF_N":"8","UF_CLUB":"\u0420\u043e\u0441\u0442\u043e\u0432","UF_TABLE":{"n":"8","Club":"\u0420\u043e\u0441\u0442\u043e\u0432","P":"17","Pnt":"25"}},{"UF_STANDING_XML_ID":"3","UF_N":"9","UF_CLUB":"\u0420\u0443\u0431\u0438\u043d","UF_TABLE":{"n":"9","Club":"\u0420\u0443\u0431\u0438\u043d","P":"17","Pnt":"23"}},{"UF_STANDING_XML_ID":"3","UF_N":"10","UF_CLUB":"\u041b\u043e\u043a\u043e\u043c\u043e\u0442\u0438\u0432 \u041c","UF_TABLE":{"n":"10","Club":"\u041b\u043e\u043a\u043e\u043c\u043e\u0442\u0438\u0432 \u041c","P":"17","Pnt":"23"}},{"UF_STANDING_XML_ID":"3","UF_N":"11","UF_CLUB":"\u0410\u043d\u0436\u0438","UF_TABLE":{"n":"11","Club":"\u0410\u043d\u0436\u0438","P":"17","Pnt":"20"}},{"UF_STANDING_XML_ID":"3","UF_N":"12","UF_CLUB":"\u041a\u0440\u044b\u043b\u044c\u044f \u0421\u043e\u0432\u0435\u0442\u043e\u0432","UF_TABLE":{"n":"12","Club":"\u041a\u0440\u044b\u043b\u044c\u044f \u0421\u043e\u0432\u0435\u0442\u043e\u0432","P":"17","Pnt":"15"}},{"UF_STANDING_XML_ID":"3","UF_N":"13","UF_CLUB":"\u0423\u0440\u0430\u043b","UF_TABLE":{"n":"13","Club":"\u0423\u0440\u0430\u043b","P":"17","Pnt":"14"}},{"UF_STANDING_XML_ID":"3","UF_N":"14","UF_CLUB":"\u041e\u0440\u0435\u043d\u0431\u0443\u0440\u0433","UF_TABLE":{"n":"14","Club":"\u041e\u0440\u0435\u043d\u0431\u0443\u0440\u0433","P":"17","Pnt":"12"}},{"UF_STANDING_XML_ID":"3","UF_N":"15","UF_CLUB":"\u0410\u0440\u0441\u0435\u043d\u0430\u043b \u0422","UF_TABLE":{"n":"15","Club":"\u0410\u0440\u0441\u0435\u043d\u0430\u043b \u0422","P":"17","Pnt":"12"}},{"UF_STANDING_XML_ID":"3","UF_N":"16","UF_CLUB":"\u0422\u043e\u043c\u044c","UF_TABLE":{"n":"16","Club":"\u0422\u043e\u043c\u044c","P":"17","Pnt":"9"}}],"mode":"more","parent_cid":"dc5177bd94b8fe05f65387d2215d9e8d","mode_show":"SHORT"} });
+		</script>
+<script type="text/javascript">(function(){var CID ='bad6385113474d4955f03e5c265304fe';"use strict";
+var cid = CID,
+	config = WBC.componentConfRegistry[cid];
+/**
+ * @global CID Script wrapped by anonymous function, CID not global for DOM
+ */
+
+if (typeof window.SPORTFAKT == "undefined") { window.SPORTFAKT = {};}
+
+app = new Marionette.BitrixItemListApplication();
+
+window.SPORTFAKT.STANDING_APP_LIST = app;
+
+app.on("before:start", function () {
+	//noinspection JSUnresolvedVariable
+	this.collectionViewConf.el ="#standing-list-" + cid;
+	this.collectionConf.url = "/local/api/statistika/"+ config.mode_show.toLowerCase() + "/";
+});
+
+
+app.on("start", function () {
+	this.collectionView.$el.html("");
+	this.layout.itemsLoaded = function() {
+		setTimeout(function() {
+			$(window).trigger("update");
+		}, 0);
+	};
+	this.collection.on("sync", function(model, resp) {
+		if (!resp.ITEMS.length) {
+			setTimeout(function() {
+				$(window).trigger("update");
+			}, 0);
+		}
+	});
+});
+
+$(document).ready(function() {
+	// noinspection JSUnresolvedVariable
+	app.start({
+		cid: CID,
+		load: false
+	});
+});
+})();</script>
+
+<script type='text/javascript'>
+			(window.WBC || top.WBC).componentConfRegistry({ 'dc5177bd94b8fe05f65387d2215d9e8d' : {"compiledTemplates":[],"templates":[],"mode_show":"SHORT","folder":"\/statistika\/","name_folder":"statistika"} });
+		</script>
+<script type="text/javascript">(function(){var CID ='dc5177bd94b8fe05f65387d2215d9e8d';"use strict";
+var cid = CID,
+	config = WBC.componentConfRegistry[cid],
+	componentNamespace = "[data-cid=" + cid + "]";
+
+/**
+ * @global DropdownFilterApp Marionette.Application
+ * @global CaseApp Marionette.Application
+ */
+if (typeof window.SPORTFAKT == "undefined") { window.SPORTFAKT = {};}
+if (typeof window.SPORTFAKT.STATISTIKA == "undefined") { window.SPORTFAKT.STATISTIKA = {};}
+
+
+(function() {
+
+	var StandingController, StandingAppRouter, StandingAppContainer;
+
+	StandingAppContainer = Marionette.LayoutView.extend({
+		el: componentNamespace,
+		collect: {},
+		views: {},
+		regions: {},
+		sport: "",
+		competition: {},
+		ui: {
+			filterCompetitionItem: ".dropdown-menu li a",
+			filterSportItem: "[data-id=sport-list] li a",
+			detailLink: "[data-detail-link]"
+		},
+		events: {
+			"click @ui.filterCompetitionItem": "onClickFilterCompetitionItemItem",
+			"click @ui.filterSportItem": "onClickFilterSportItem"
+		},
+		onClickFilterCompetitionItemItem: function(e) {
+
+			if(!window.SPORTFAKT.STANDING_APP_LIST.isLoading()) {
+				var $current = $(e.target);
+				this.competition[this.sport] = $current.data("competition");
+				
+				e.preventDefault();
+				this.setActiveOption(this.sport, this.competition[this.sport]);
+			} else {
+				return false;
+			}
+		},
+		onClickFilterSportItem: function(e) {
+			if(!window.SPORTFAKT.STANDING_APP_LIST.isLoading()){
+				var $current = $(e.target);
+				this.sport = $current.data("sport");
+				this.competition[this.sport] = (this.competition[this.sport]) ? this.competition[this.sport]: $current.data("competition-default");
+
+				e.preventDefault();
+				$current.tab("show");
+				this.setActiveOption(this.sport, this.competition[this.sport]);
+			} else {
+				return false;
+			}
+		},
+		setActiveOption: function(sport, competition) {
+
+			var $activeSportPanel = $("#panel-"+ cid + "-" +sport),
+				$activeOption = $activeSportPanel.find("[data-competition="+competition + "]"),
+				competitionName = $activeOption.html();
+
+			$activeSportPanel.find(".active-name").html(competitionName);
+			$activeSportPanel.find(".active").removeClass("active");
+			$activeOption.addClass("active");
+
+			$(this.ui.detailLink).attr("href", config.folder+this.competition[this.sport]+"/");
+			if ("FULL" == config.mode_show) {
+				if("" == this.competition[this.sport]){
+					SPORTFAKT.STATISTIKA.router.navigate(config.folder, {trigger: true});
+				} else{
+					SPORTFAKT.STATISTIKA.router.navigate(config.folder + this.competition[this.sport] + "/", {trigger: true});
+				}
+			} else {
+				StandingController.standingByFilter(this.competition[this.sport]);
+			}
+
+		},
+		initialize: function() {
+			this.sport = this.$el.find("[data-id=sport-list]").data("selected-sport");
+			this.competition[this.sport] = this.$el.find("[data-id=competition-list]").data("selected-competition");
+
+			this.setActiveOption(this.sport, this.competition[this.sport]);
+		}
+	});
+	// create instance of Application
+	window.StandingApp = new Marionette.Application();
+
+	//noinspection JSValidateTypes
+	StandingController = {
+		firstLoad: true,
+		index: function() {
+
+		},
+		standingByFilter: function(competition) {
+			window.SPORTFAKT.STANDING_APP_LIST.setRequestOption("filter", {competition: competition});
+			window.SPORTFAKT.STANDING_APP_LIST.setRequestOption("reset", true);
+			window.SPORTFAKT.STANDING_APP_LIST.loadItems(true);
+		}
+	};
+
+	StandingAppRouter = Backbone.Marionette.AppRouter.extend({
+		controller: StandingController,
+		appRoutes: {
+			"": "index",
+			"*defaults": "index"
+		}
+	});
+
+
+
+	if ("FULL" == config.mode_show){
+		StandingApp.on("before:start", function() {
+			SPORTFAKT.STATISTIKA.router = new StandingAppRouter();
+			SPORTFAKT.STATISTIKA.router.appRoute(config.name_folder + "/:competition(/)", "standingByFilter");
+			if (Backbone.history) {
+				Backbone.history.start({pushState: true});
+			}
+		});
+	}
+
+	StandingApp.on("start", function() {
+		StandingApp.regions = new StandingAppContainer();
+	});
+
+	window.SPORTFAKT.STANDING_APP_LIST.on("start", function () {
+		StandingApp.start();
+	});
+})();})();</script>
+<script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "5570c2b49508b2d1d9c4e9d0f2efe262"]); _ba.push(["host", "www.sportfakt.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.js"></script>
+<script type="text/javascript">
+function OnIsConstrictionLoaded(){
+  var elem = document.getElementById('constriction_id');
+  if (elem != null){
+    elem=elem.parentElement;
+	elem.parentElement.removeChild(elem);
+  }
+  elem=document.getElementById('onresize_check_frame');
+  if (elem != null){
+    elem.parentElement.removeChild(elem);
+  }
+}
+
+function OnCheckSidebarSizeChanged(){
+  counter_sidebar++;
+  if (counter_sidebar>=20){
+    if (int_sidebar != null){
+	  clearInterval(int_sidebar);
+	  int_sidebar = null;
+	}
+	return;
+  }else{if(counter_sidebar==10){OnIsConstrictionLoaded();}}
+  var brand_off = 0;
+  var elem = document.getElementById('test_div');
+  if (elem == null){
+    return;
+  }
+  var attr=elem.getAttribute('_offset_');
+  if (!((attr != null)&&(parseInt(attr)>0))){
+    return;
+  }else{
+    var off=elem.getAttribute('_offset_');
+	if (off != null){
+	  brand_off=parseInt(off);
+	}
+  }
+  
+  if (elem.style.backgroundImage == null) {
+    return;
+  }
+  elem=document.getElementsByClassName('top-block');
+  if((elem != null)&&(elem.length>0)){
+    brand_off=brand_off+elem[0].clientHeight;
+  }  
+  var height_ = null;
+  elem=document.getElementsByClassName('container container-lg');
+  if ((elem != null)&&(elem.length>0)) {
+    height_=elem[0].clientHeight;
+
+	var rows=document.getElementsByClassName('footer');
+	if ((rows != null)&&(rows.length>0)){
+	  if (height_ != rows[0].offsetTop-brand_off){
+	    elem[0].style.height=String(rows[0].offsetTop-brand_off)+"px";
+	  }
+	}
+  }
+}
+  var int_sidebar = null;
+  var counter_sidebar = 0;
+  int_sidebar=setInterval(OnCheckSidebarSizeChanged,500);
+</script></body>
+</html>
+
+	 <head>
+ <script data-skip-moving="true" type="text/javascript" src="/adfox_advertising/adfox.asyn.code.ver3.js"></script>
+ </head>
+ <!--AdFox START-->
+<!--Sportfakt.ru-->
+<!--��������: Sportfakt.ru / * / *-->
+<!--��� �������: �������������-->
+<!--������������: <�������� ��������>-->
+<!-- ________________________AdFox Asynchronous code START__________________________ --> 
+<script data-skip-moving="true" type="text/javascript"> 
+<!--
+if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 4294967295) + 1; }
+if (typeof(document.referrer) != 'undefined') {
+  if (typeof(afReferrer) == 'undefined') {
+    afReferrer = encodeURIComponent(document.referrer);
+  }
+} else {
+  afReferrer = '';
+}
+var addate = new Date();
+
+
+var dl = encodeURIComponent(document.location);
+var pr1 = Math.floor(Math.random() * 4294967295) + 1;
+
+document.write('<div id="AdFox_banner_'+pr1+'"><\/div>');
+document.write('<div style="visibility:hidden; position:absolute;"><iframe id="AdFox_iframe_'+pr1+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div>');
+
+AdFox_getCodeScript(1,pr1,'//ads.adfox.ru/246322/prepareCode?pp=h&amp;ps=cfho&amp;p2=fjdo&amp;pct=a&amp;plp=a&amp;pli=a&amp;pop=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '&amp;dl='+dl+'&amp;pr1='+pr1);
+// -->
+</script> 
+<!-- _________________________AdFox Asynchronous code END___________________________ --> 
+ <iframe id="onresize_check_frame" style="width: 100%; height:0px; visibility: hidden;"> </iframe>
+ <script data-skip-moving="true" type="text/javascript">
+ var tag_add = null;
+var par=null;
+var elem = document.getElementById('content');
+if (elem != null){
+  var div_elem = elem.getElementsByTagName('div');
+  if((div_elem != null)&&(div_elem.length>0)){
+    for(var i=0;i<div_elem.length;i++){
+	  var attr = div_elem[i].getAttribute('itemprop');
+	  if ((attr != null)&&(attr == 'articleBody')){
+//is article found...
+        if (div_elem[i].parentElement == null){break;}
+		if (div_elem[i].parentElement.parentElement == null){break;}
+		var par = div_elem[i].parentElement.parentElement;
+		break;
+		
+	    
+	  }
+	}//for i...
+	if(par != null){
+	  var theme_caption=par.getElementsByClassName('cat-title mb25');
+	  if((theme_caption != null)&&(theme_caption.length>0)){
+	    var txt=theme_caption[0].innerText;
+		switch (txt){
+		  case "ХОККЕЙ":tag_add='hockey';break;
+		  case "ФУТБОЛ":tag_add='football';break;
+		  case "БАСКЕТБОЛ":tag_add='backetball';break;
+		  case "БИАТЛОН":tag_add='biathlon';break;
+		  case "БОКС":tag_add='boxing';break;
+		  case "ФОРМУЛА 1":tag_add='formula_1';break;
+		  case "ТЕННИС":tag_add='tennis';break;
+		  default:tag_add='other';
+		}//switch..		
+/*
+		if(txt=='ФУТБОЛ'){tag_add='football';}else{
+		  tag_add='other';
+		}
+*/		
+		
+	  }
+	}
+  }  
+} 
+
+ 
+	const CONSTRICTION_MAX_WIDTH = 1200;
+	const CONSTRICTION_MAX_HEIGHT = 235;
+	var is_background_loaded = false;
+	var is_constriction_loaded = false;
+	var __int__900x235 = null;
+	var __int__Check = null;
+	var int_check_counter = 0;
+	var int_900x235_counter = 0;
+	var __int__upper_right = null;
+	var int_upper_right_counter = 0;
+	
+	
+function onresize_constriction() {
+if (!(is_background_loaded || is_constriction_loaded)) { return; }
+var elem = document.getElementById('main-brand');
+if (elem != null) {
+   var elem_ = document.getElementById('constriction_id');
+   if (elem_ != null) {
+	  var elem_c = elem.getElementsByTagName('iframe');
+	  if ((elem_c != null)&&(elem_c.length > 0)) {
+		 if ((elem_c[0].contentDocument != null)) {
+			 var in_doc = elem_c[0].contentDocument;
+			 var canva = in_doc.getElementsByTagName('CANVAS');
+			 if ((canva != null)&&(canva.length > 0)) {
+
+             var tags = in_doc.getElementsByTagName('div');
+			   if ((tags != null)&&(tags.length > 0)) {
+			     var attr = null;
+			     for (var i=0;i<tags.length;i++) {
+				   attr = tags[i].getAttribute('format');
+				   if (attr != null) {
+				     switch (attr) {
+					  case '900px':
+					    CheckConstrictionPosition(true);
+						ResizeConstrictionParents(elem,elem_,elem_c[0],900,90);
+					    var tmp,_left_,_top_ = null;
+						tmp = elem_.clientWidth;
+						canva[0].style.width = String(tmp-25)+"px";
+						tmp = elem_.clientHeight;
+						canva[0].style.height = String(tmp)+"px";
+					  break;
+					  case '728px':
+					    CheckConstrictionPosition(true);
+						ResizeConstrictionParents(elem,elem_,elem_c[0],728,90);
+						tmp = elem_.clientWidth;
+						canva[0].style.width = String(tmp-25)+"px";
+						tmp = elem_.clientHeight;
+						canva[0].style.height = String(tmp)+"px";
+					  break;
+					  default:
+					    CheckConstrictionPosition(false);
+						ResizeConstrictionParents(elem,elem_,elem_c[0],1200,235);
+						elem_c[0].style.width = String(elem_.clientWidth-30)+"px";
+						elem_c[0].style.height = String(elem_.clientHeight)+"px";
+						elem_c[0].parentElement.style.width = String(elem_.clientWidth-25)+"px";
+						elem_c[0].parentElement.style.height = String(elem_.clientHeight)+"px";
+						canva[0].style.width = String(elem_.clientWidth-25)+"px";
+						canva[0].style.height = String(elem_.clientHeight)+"px";
+						
+						
+					  break;
+					 }
+					 break;
+				   }
+				 }//for i...
+			   }
+				elem_c[0].style.width = String(elem_.clientWidth-30)+"px";
+				elem_c[0].style.height = String(elem_.clientHeight)+"px";
+				elem_c[0].parentElement.style.width = String(elem_.clientWidth-25)+"px";
+				elem_c[0].parentElement.style.height = String(elem_.clientHeight)+"px";
+			   canva[0].parentElement.style.width = canva[0].style.width;
+			   canva[0].parentElement.style.height = canva[0].style.height;
+			   canva[0].parentElement.parentElement.style.width = canva[0].style.width;
+			   canva[0].parentElement.parentElement.style.height = canva[0].style.height;
+			   canva[0].parentElement.parentElement.parentElement.style.width = canva[0].style.width;
+			   canva[0].parentElement.parentElement.parentElement.style.height = canva[0].style.height;
+			   
+			   
+			 }else{var _img_ = elem_.getElementsByTagName('img');if ((_img_ != null)&&(_img_.length > 0)) {mw = _img_[0].naturalWidth;mh = _img_[0].naturalHeight;is_small = false;if (mw < 1200){is_small=true;}CheckConstrictionPosition(is_small);ResizeConstrictionParents(elem,elem_,null,mw,mh);}}
+		 }
+	  }
+   }
+}
+}	
+ 
+   var elem = document.getElementById('onresize_check_frame');
+   if (elem != null) {
+       if (elem.contentWindow.addEventListener) {
+	       elem.contentWindow.addEventListener('resize',function() { onresize_constriction(); },false);
+	   }else{
+	       elem.contentWindow.attachEvent("onresize",onresize_constriction);
+	   }
+   }
+ 
+ </script>
+<div id = "main-brand" style = "background-position-y: 50px; bottom:10px; /*margin-top: -21px;*/ position: relative; margin-bottom: -30px;">
+<div id = "constriction_id" class="row columns" style="position: relative; background-color: #fff; margin: 0 auto; visibility: hidden;">
+<script data-skip-moving="true" type="text/javascript">
+function ResizeConstrictionParents(main,constrict_id,iframe,mw,mh) {
+//var elem = document.getElementById('main-brand');
+	var width = main.clientWidth;/*    	if (iframe == null) {	  var elem = constrict_id.getElementsByTagName('img');	  if ((elem != null)&&(elem.length > 0)) {	    mw = elem[0].naturalWidth;		mh = elem[0].naturalHeight;	  }	}
+*/	    var off = 0;    if ((iframe==null)&&(mw<1200)) {off=12;constrict_id.style.left="-12px";}	if (width <= mw) {	   constrict_id.style.width = String(width+2*off)+"px";	   constrict_id.style.height = String(Math.round(width*mh/mw))+"px";	}else{		constrict_id.style.width = String(mw+2*off)+"px";		constrict_id.style.height = String(mh)+"px";	}	if (iframe != null) {		iframe.setAttribute('width',constrict_id.clientWidth-30);		iframe.setAttribute('height',constrict_id.clientHeight);	}}
+function CheckConstrictionPosition(is_small) {
+  if (!is_small) {
+	  var elem = document.getElementById('main-brand');
+	  if (elem != null) {
+		if (!((elem.parentElement != null)&&(elem.parentElement.className == 'row'))) {
+			var content = document.getElementById('content');
+			if (content != null) {
+			  if (content.parentElement != null) {
+				parent = content.parentElement;
+				if (parent.firstChild != null){
+				  parent.insertBefore(elem,parent.firstChild);
+				}
+			  }
+			}
+		}
+	  }
+  }else{
+	  var elem = document.getElementById('main-brand');
+	  if (elem != null) {
+		if (!((elem.parentElement != null)&&(elem.parentElement.id == 'content')/*(elem.parentElement.className = 'col-xs-12 col-sm-12 col-md-8')*/)) {  
+			var content = document.getElementById('content');
+			if (content != null) {
+			  if (content.firstChild != null) {
+				var child = content.firstChild;
+				content.insertBefore(elem,content.firstChild);
+			  }
+			}
+		}
+	  }
+	  elem = document.getElementById('constriction_id');
+	  if (elem != null) {
+	    elem.style.marginBotton = '20px';
+		elem.style.marginTop = '10px';
+	  }
+  }
+}
+</script>
+<script data-skip-moving="true" type="text/javascript">
+</script>
+<!--AdFox START-->
+<!--Sportfakt.ru-->
+<!-- ��������: Sportfakt.ru / * / *-->
+<!--��� �������: ���������100%js-->
+<!--������������: <���� ��������>-->
+<!-- ________________________AdFox Asynchronous code START__________________________ --> 
+<script data-skip-moving="true" type="text/javascript"> 
+
+if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 4294967295) + 1; }
+if (typeof(document.referrer) != 'undefined') {
+  if (typeof(afReferrer) == 'undefined') {
+    afReferrer = encodeURIComponent(document.referrer);
+  }
+} else {
+  afReferrer = '';
+}
+var addate = new Date();
+
+var dl = encodeURIComponent(document.location);
+var pr1 = Math.floor(Math.random() * 4294967295) + 1;
+var test_banner_id = "AdFox_banner_"+pr1;
+var test_iframe_id = "adfoxHtml5_iframe_"+pr1;
+
+document.write('<div id="AdFox_banner_'+pr1+'"><\/div>');
+document.write('<div style="visibility:hidden; position:absolute;"><iframe id="AdFox_iframe_'+pr1+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div>');
+
+AdFox_getCodeScript(1,pr1,'//ads.adfox.ru/246322/prepareCode?pp=g&ps=cfho&p2=fhyv&pct=a&plp=a&pli=a&pop=a&pr=' + pr +'&pt=b&pd=' + addate.getDate() + '&pw=' + addate.getDay() + '&pv=' + addate.getHours() + '&prr=' + afReferrer + '&dl='+dl+'&pr1='+pr1 + '&amp;puid1='+tag_add);
+// -->
+</script> 
+
+
+<script data-skip-moving="true" type="text/javascript">
+
+
+
+function OnDocumentLoad() {
+  is_document_loaded = true;
+}
+
+function OnInterval() {
+ is_interval_elapsed = true; 
+
+ var elem =  null;
+ elem = document.getElementById(test_banner_id);
+ if (elem != null) {
+	if ((elem.clientWidth>1)&&(elem.clientHeight>1)) {
+	     is_constriction_loaded = true;
+	     if (typeof(intervalID) != 'undefined') {
+			 clearInterval(intervalID);
+		 }	 
+		 
+		 
+		  if (is_constriction_loaded) {
+			  var elem = document.getElementById('loop');
+			  if (elem != null){
+				  if (elem.style.marginTop == "30px") {
+					  elem.style.marginTop = "0px";
+					  var elem = document.getElementById('constriction_id');
+					  elem.style.marginTop = "30px";
+				  }
+			  }
+		  }else{
+//			  var elem = document.getElementById('loop');
+//			  elem.style.marginTop = "30px";
+		  }
+		 
+		 var constrict = document.getElementById('constriction_id');
+		 if (constrict != null) {
+			 constrict.style.visibility = "visible";
+		 }
+	}
+	
+ }
+ 
+ 
+ if (is_background_loaded || is_constriction_loaded) {
+ elem = document.getElementById('constriction_id');
+ if (elem != null) {
+     var elem_main = document.getElementById('main-brand');
+	 if (elem_main != null) {
+	 
+	     var width = elem_main.clientWidth;
+		 if (width >= CONSTRICTION_MAX_WIDTH) {
+		     elem.style.width = String(CONSTRICTION_MAX_WIDTH)+"px";
+			 elem.style.height = String(CONSTRICTION_MAX_HEIGHT)+"px";
+		 }else{
+		     elem.style.width = String(width)+"px";
+			 elem.style.height = String(Math.round(width*CONSTRICTION_MAX_HEIGHT/CONSTRICTION_MAX_WIDTH))+"px";
+		 }
+		 var elem_banner = document.getElementById(test_banner_id);
+		 if (elem_banner != null) {
+		     if ((elem_banner.children[0] != null)&&(elem_banner.children[0].id == test_iframe_id)) {
+		     width=elem_banner.parentElement.clientWidth;
+			 if (width >=CONSTRICTION_MAX_WIDTH) {
+			     elem_banner.style.width = String(CONSTRICTION_MAX_WIDTH)+"px";
+				 elem_banner.style.height = String(CONSTRICTION_MAX_HEIGHT)+"px";
+			 }else{
+			     elem_banner.style.width = String(width)+"px";
+				 elem_banner.style.height = String(Math.round(width*CONSTRICTION_MAX_HEIGHT/CONSTRICTION_MAX_WIDTH))+"px";
+			 }
+			 
+			 elem_test = elem_banner.children[0];//document.getElementById(test_iframe_id);
+			 if (elem_test != null) {
+			     elem_test.style.width = elem_banner.style.width;
+				 elem_test.style.height = elem_banner.style.height;
+			 }
+			 var im = elem_test.contentDocument.getElementById('image_1');
+//			 var im = elem_test.getElementById('image_1');
+			 if (im != null) {
+			     im.style.width = elem_test.style.width;
+				 im.style.height = elem_test.style.height;
+			 }
+		 }
+	 }
+ }
+ }
+ }
+ 
+ 
+ 
+ if (is_document_loaded) {
+     if (!((is_background_loaded)||(is_constriction_loaded))) {
+         elem = document.getElementById('constriction_id');
+		 if (elem != null) {
+		     elem.style.height = "0px";
+		 }
+     }
+     if (typeof(intervalID) != 'undefined') {
+	     clearInterval(intervalID);
+	 }
+ 
+ }
+ 
+ 
+
+}
+       var is_interval_elaped = false;
+	   var is_document_loaded = false;
+	   var intervalID = setInterval(OnInterval,100);
+	   
+       if (window.parent.addEventListener) {
+		   window.parent.addEventListener('load',OnDocumentLoad,false);
+		}else{
+          window.parent.attachEvent("onload",OnDocumentLoad);
+        }		
+</script>
+<!-- _________________________AdFox Asynchronous code END___________________________ -->
+<script data-skip-moving="true" type = "text/javascript">
+onresize_constriction();
+__int__Check = setInterval(OnCheckHTML,300);
+
+
+function OnCheckHTML() {
+  if (int_check_counter >= 100) {
+    clearInterval(__int__Check);
+	__int__Check = null;
+  }
+  int_check_counter++;
+
+if (!(is_background_loaded || is_constriction_loaded)) { return; }
+var elem = document.getElementById('main-brand');
+if (elem != null) {
+   var elem_ = document.getElementById('constriction_id');
+   if (elem_ != null) {
+	  var elem_c = elem.getElementsByTagName('iframe');
+	  if ((elem_c != null)&&(elem_c.length > 0)) {
+		 if ((elem_c[0].contentDocument != null)) {
+			 var in_doc = elem_c[0].contentDocument;
+			 var canva = in_doc.getElementsByTagName('CANVAS');
+			 if ((canva != null)&&(canva.length > 0)) {
+             var tags = in_doc.getElementsByTagName('div');
+			   if ((tags != null)&&(tags.length > 0)) {
+			     var attr = null;
+			     for (var i=0;i<tags.length;i++) {
+				   attr = tags[i].getAttribute('format');
+				   if (attr != null) {
+				     switch (attr) {
+					  case '900px':
+					    CheckConstrictionPosition(true);
+						ResizeConstrictionParents(elem,elem_,elem_c[0],900,90);
+					    var tmp,_left_,_top_ = null;
+						tmp = elem_.clientWidth;
+						canva[0].style.width = String(tmp-25)+"px";
+						tmp = elem_.clientHeight;
+						canva[0].style.height = String(tmp)+"px";
+					  break;
+					  case '728px':
+					    CheckConstrictionPosition(true);
+						ResizeConstrictionParents(elem,elem_,elem_c[0],728,90);
+						tmp = elem_.clientWidth;
+						canva[0].style.width = String(tmp-25)+"px";
+						tmp = elem_.clientHeight;
+						canva[0].style.height = String(tmp)+"px";
+					  break;
+					  default:
+					    CheckConstrictionPosition(false);
+						ResizeConstrictionParents(elem,elem_,elem_c[0],1200,235);
+						elem_c[0].style.width = String(elem_.clientWidth-30)+"px";
+						elem_c[0].style.height = String(elem_.clientHeight)+"px";
+						elem_c[0].parentElement.style.width = String(elem_.clientWidth-25)+"px";
+						elem_c[0].parentElement.style.height = String(elem_.clientHeight)+"px";
+						canva[0].style.width = String(elem_.clientWidth-25)+"px";
+						canva[0].style.height = String(elem_.clientHeight)+"px";
+						break;
+					 }
+					 break;
+				   }
+				 }//for i...
+			   }
+			   
+				elem_c[0].style.width = String(elem_.clientWidth-30)+"px";
+				elem_c[0].style.height = String(elem_.clientHeight)+"px";
+				elem_c[0].parentElement.style.width = String(elem_.clientWidth-25)+"px";
+				elem_c[0].parentElement.style.height = String(elem_.clientHeight)+"px";
+			   canva[0].parentElement.style.width = canva[0].style.width;
+			   canva[0].parentElement.style.height = canva[0].style.height;
+			   canva[0].parentElement.parentElement.style.width = canva[0].style.width;
+			   canva[0].parentElement.parentElement.style.height = canva[0].style.height;
+			   canva[0].parentElement.parentElement.parentElement.style.width = canva[0].style.width;
+			   canva[0].parentElement.parentElement.parentElement.style.height = canva[0].style.height;
+			   
+			   clearInterval(__int__Check);			   __int__Check = null;
+			 }else{				var _img_ = elem_.getElementsByTagName('img');				if ((_img_ != null)&&(_img_.length > 0)) {				   mw = _img_[0].naturalWidth;				   mh = _img_[0].naturalHeight;				   is_small = false;				   if (mw < 1200){is_small=true;}				   CheckConstrictionPosition(is_small);				   ResizeConstrictionParents(elem,elem_,null,mw,mh);				   clearInterval(__int__Check);				   __int__Check = null;				   				}			 }
+		 }
+	  }else{
+//image...
+	   var width = elem.clientWidth;
+	   if (width <= CONSTRICTION_MAX_WIDTH) {
+		   elem_.style.width = String(width)+"px";
+		   elem_.style.height = String(Math.round(width*CONSTRICTION_MAX_HEIGHT/CONSTRICTION_MAX_WIDTH))+"px";
+		}else{
+			elem_.style.width = String(CONSTRICTION_MAX_WIDTH)+"px";
+			elem_.style.height = String(CONSTRICTION_MAX_HEIGHT)+"px";
+		}
+  }	  
+   
+   
+   
+   
+   
+   
+   
+
+}
+}
+}
+
+function onload__() {
+  var elem = document.body
+  if (elem != null){
+     if (elem.style.backgroundImage != "") {
+        is_background_loaded = true;
+	 }
+  }
+}
+
+ if (window.parent.addEventListener){
+    window.parent.addEventListener('load',onload__,false);
+ }else{
+    window.parent.attachEvent("onload",onload__); 
+ }
+</script>
+</div><!--constriction_id end...-->
+</div><!-- main_brand end... -->
+	<script data-skip-moving="true" type="text/javascript">
+/*
+ var tag_add = null;
+var par=null;
+var elem = document.getElementById('content');
+if (elem != null){
+  var div_elem = elem.getElementsByTagName('div');
+  if((div_elem != null)&&(div_elem.length>0)){
+    for(var i=0;i<div_elem.length;i++){
+	  var attr = div_elem[i].getAttribute('itemprop');
+	  if ((attr != null)&&(attr == 'articleBody')){
+//is article found...
+        if (div_elem[i].parentElement == null){break;}
+		if (div_elem[i].parentElement.parentElement == null){break;}
+		var par = div_elem[i].parentElement.parentElement;
+		break;
+		
+	    
+	  }
+	}//for i...
+	if(par != null){
+	  var theme_caption=par.getElementsByClassName('cat-title mb25');
+	  if((theme_caption != null)&&(theme_caption.length>0)){
+	    var txt=theme_caption[0].innerText;
+		if(txt=='ФУТБОЛ'){tag_add='football';}else{
+		  tag_add='other';
+		}
+		
+	  }
+	}
+  }  
+}
+*/
+</script>
+<div id="right_side_3" class="sidebar-item">
+	<div class="text-center" style="width: 100%; margin: 0px auto 30px;">
+<script data-skip-moving="true" type="text/javascript">
+  var adv = document.getElementById('right_side_3');
+  if (adv != null) {
+		  var elem = document.getElementsByClassName('sidebar-inner');
+		  if ((elem != null)&&(elem.length > 0)) {
+			if (elem[0].childElementCount > 3) {
+			  elem[0].insertBefore(adv,elem[0].children[3]);
+			}else{
+			  if (adv.parentElement != null){
+				  adv.parentElement.removeChild(adv);
+				}
+			}
+		  }
+  }
+</script>
+	<!--AdFox START-->
+<!--Sportfakt.ru-->
+<!--��������: Sportfakt.ru / * / *-->
+<!--��� �������: ������� �������� 3-->
+<!--������������: <�������� ��������>-->
+<script data-skip-moving="true" type="text/javascript">
+<!--
+if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 4294967295 ) + 1; }
+if (typeof(document.referrer) != 'undefined') {
+    if (typeof(afReferrer) == 'undefined') {
+        afReferrer = encodeURIComponent(document.referrer);
+    }
+} else {
+    afReferrer = '';
+}
+var addate = new Date(); 
+document.write('<scr' + 'ipt type="text/javascript" src="//ads.adfox.ru/246322/prepareCode?pp=h&amp;ps=cfho&amp;p2=fmab&amp;plp=a&amp;pli=a&amp;pop=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '&amp;puid1='+tag_add+'"><\/scr' + 'ipt>');
+// -->
+</script>
+<!--AdFox END--></div>
+</div>
+<div id="right_side_2" class="sidebar-item">
+	<div class="text-center" style="width: 100%; margin: 0px auto 30px;">
+<script data-skip-moving="true" type="text/javascript">
+  var adv = document.getElementById('right_side_2');
+  if (adv != null) {
+		  var elem = document.getElementsByClassName('sidebar-inner');
+		  if ((elem != null)&&(elem.length > 0)) {
+			if (elem[0].childElementCount > 2) {
+			  elem[0].insertBefore(adv,elem[0].children[2]);
+			}
+		  }
+  }
+</script>
+<!--AdFox START-->
+<!--Sportfakt.ru-->
+<!--��������: Sportfakt.ru / * / *-->
+<!--��� �������: ������� �������� 2-->
+<!--������������: <�������� ��������>-->
+<script data-skip-moving="true" type="text/javascript">
+<!--
+if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 4294967295 ) + 1; }
+if (typeof(document.referrer) != 'undefined') {
+    if (typeof(afReferrer) == 'undefined') {
+        afReferrer = encodeURIComponent(document.referrer);
+    }
+} else {
+    afReferrer = '';
+}
+var addate = new Date(); 
+document.write('<scr' + 'ipt type="text/javascript" src="//ads.adfox.ru/246322/prepareCode?pp=h&amp;ps=cfho&amp;p2=fmaa&amp;plp=a&amp;pli=a&amp;pop=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer  + '&amp;puid1='+tag_add+'"><\/scr' + 'ipt>');
+// -->
+</script>
+<!--AdFox END-->	</div>
+ </div>
+<div id="right_side_1" class="sidebar-item">
+	<div class="text-center" style="width: 100%; margin: 0px auto 30px;">
+<script data-skip-moving="true" type="text/javascript">
+  var adv = document.getElementById('right_side_1');
+  if (adv != null) {
+		  var elem = document.getElementsByClassName('sidebar-inner');
+		  if ((elem != null)&&(elem.length > 0)) {
+			if (elem[0].childElementCount > 2) {
+			  elem[0].insertBefore(adv,elem[0].children[1]);
+			}
+		  }
+  }
+</script>
+<!--AdFox START-->
+<!--Sportfakt.ru-->
+<!--��������: Sportfakt.ru / * / *-->
+<!--��� �������: ������� �������� 1-->
+<!--������������: <�������� ��������>-->
+<script data-skip-moving="true" type="text/javascript">
+<!--
+if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 4294967295 ) + 1; }
+if (typeof(document.referrer) != 'undefined') {
+    if (typeof(afReferrer) == 'undefined') {
+        afReferrer = encodeURIComponent(document.referrer);
+    }
+} else {
+    afReferrer = '';
+}
+var addate = new Date(); 
+document.write('<scr' + 'ipt type="text/javascript" src="//ads.adfox.ru/246322/prepareCode?pp=h&amp;ps=cfho&amp;p2=flzz&amp;plp=a&amp;pli=a&amp;pop=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer  + '&amp;puid1='+tag_add+'"><\/scr' + 'ipt>');
+// -->
+</script>
+<!--AdFox END-->	</div>
+</div>
+<div id="right_side_4" class="sidebar-item";>
+	<div class="text-center" style="width: 100%; margin: 0px auto 30px;">
+<script data-skip-moving="true" type="text/javascript">
+  var adv = document.getElementById('right_side_4');
+  if (adv != null) {
+		  var elem = document.getElementsByClassName('sidebar-inner');
+		  if ((elem != null)&&(elem.length > 0)) {
+			if (elem[0].childElementCount > 2) {
+			  elem[0].appendChild(adv);
+			}
+		  }
+  }
+</script>
+<!--AdFox START-->
+<!--Sportfakt.ru-->
+<!--��������: Sportfakt.ru / * / *-->
+<!--��� �������: ������� �������� 4-->
+<!--������������: <�������� ��������>-->
+<script data-skip-moving="true" type="text/javascript">
+<!--
+if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 4294967295 ) + 1; }
+if (typeof(document.referrer) != 'undefined') {
+    if (typeof(afReferrer) == 'undefined') {
+        afReferrer = encodeURIComponent(document.referrer);
+    }
+} else {
+    afReferrer = '';
+}
+var addate = new Date(); 
+document.write('<scr' + 'ipt type="text/javascript" src="//ads.adfox.ru/246322/prepareCode?pp=h&amp;ps=cfho&amp;p2=fmac&amp;plp=a&amp;pli=a&amp;pop=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '&amp;puid1='+tag_add+'"><\/scr' + 'ipt>');
+// -->
+</script>
+<!--AdFox END--></div>
+</div>	<iframe id="banner_in_article_size_control" style="width: 100%; height: 0px; visibility: hidden;"></iframe>
+<div id="adv_in_article_body" style="visibility:hidden; width:0px; height:0px;">
+<!--AdFox START-->
+<!--Sportfakt.ru-->
+<!--Площадка: Sportfakt.ru / * / *-->
+<!--Тип баннера: Площадка в статье-->
+<!--Расположение: <середина страницы>-->
+<script data-skip-moving="true" type="text/javascript">
+/*
+var tag_add = 'other';
+var par=null;
+var elem = document.getElementById('content');
+if (elem != null){
+  var div_elem = elem.getElementsByTagName('div');
+  if((div_elem != null)&&(div_elem.length>0)){
+    for(var i=0;i<div_elem.length;i++){
+	  var attr = div_elem[i].getAttribute('itemprop');
+	  if ((attr != null)&&(attr == 'articleBody')){
+//is article found...
+        if (div_elem[i].parentElement == null){break;}
+		if (div_elem[i].parentElement.parentElement == null){break;}
+		var par = div_elem[i].parentElement.parentElement;
+		break;
+		
+	    
+	  }
+	}//for i...
+	if(par != null){
+	  var theme_caption=par.getElementsByClassName('cat-title mb25');
+	  if((theme_caption != null)&&(theme_caption.length>0)){
+	    var txt=theme_caption[0].innerText;
+		if(txt=='ФУТБОЛ'){tag_add='football';}
+	  }
+	}
+  }  
+}	
+*/
+
+if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 4294967295 ) + 1; }
+var adfox_banner_id_in_article = 'AdFox_banner_'+pr;
+//var adfox_content = 'AdFox_banner_'+pr;
+var ___int___art = null;
+var int_counter_art = 0;
+var off_ = 20;
+
+if (typeof(document.referrer) != 'undefined') {
+    if (typeof(afReferrer) == 'undefined') {
+        afReferrer = encodeURIComponent(document.referrer);
+    }
+} else {
+    afReferrer = '';
+}
+var addate = new Date(); 
+document.write('<scr' + 'ipt type="text/javascript" src="//ads.adfox.ru/246322/prepareCode?pp=h&amp;ps=cfho&amp;p2=fmay&amp;plp=a&amp;pli=a&amp;pop=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '&amp;puid1='+tag_add+'"><\/scr' + 'ipt>');
+// -->
+</script>
+<!--AdFox END-->
+</div>
+
+<!--insert advertising container in article block...-->
+<script data-skip-moving="true" type="text/javascript">
+function onresize_in_art() {
+  if (int_counter_art >= 100) {
+    clearInterval(___int___art);
+	___int___art = null;
+  }
+  int_counter_art++;
+ var width = 0;
+ var elem = document.getElementById('content');  
+ if (elem != null) {width = elem.clientWidth;}
+ var elem = document.getElementById(/*adfox_banner_id_in_article*/'adv_in_article_body');
+ if (elem == null){return;}
+ var elems = elem.getElementsByTagName('div');
+ var is_found = false;
+ var is_art_frame = false;
+ if ((elems != null)&&(elems.length>0)){
+	 if((elems[0].clientWidth>0)&&(elems[0].clientHeight>0)){
+	  if (article_adv_width == null){
+		article_adv_width = elems[0].clientWidth;
+	  }
+	  if (article_adv_height == null){
+		article_adv_height = elems[0].clientHeight;
+	  }
+     if (elems[0].children[0] != null){
+	   elems[0].children[0].style.width = String(width-off_)+"px";
+	   if (elems[0].children[0].contentDocument != null) {
+	     is_art_frame = true;
+	   }
+	  }
+		is_found = true;
+	 }
+ }else{return;}
+ if (is_art_frame){
+   var width_orig = article_adv_width;
+   var height_orig = article_adv_height;
+ }else{
+	 var width_orig = elems[0].clientWidth;
+	 var height_orig = elems[0].clientHeight;
+}
+ if (width < width_orig/*400*/) {
+   var koef = width_orig/height_orig;//400/235;
+   if (is_found){
+     if (elems[0].children[0] != null){
+	   elems[0].children[0].style.width = String(width-off_)+"px";
+	   if (elems[0].children[0].contentDocument != null) {
+	     var in_doc = elems[0].children[0].contentDocument;
+		 var canva = in_doc.getElementsByTagName('CANVAS');
+		 if ((canva != null)&&(canva.length > 0)) {
+		   var tmp = width-off_;// width/koef;
+		   canva[0].style.width = String(Math.round(tmp))+"px";
+		   canva[0].style.height = String(Math.round(tmp/koef))+"px";
+		   canva[0].parentElement.style.width = canva[0].style.width;
+		   canva[0].parentElement.style.height = canva[0].style.height;
+		   canva[0].parentElement.parentElement.style.width = canva[0].style.width;
+		   canva[0].parentElement.parentElement.style.height = canva[0].style.height;
+		   elems[0].style.height = canva[0].style.height;
+		   if (___int___art != null) {
+			   clearInterval(___int___art);
+			   ___int___art = null;
+		  }
+		 }
+	   }else{
+	       var tmp = width-off_;
+		   var imgs = elems[0].getElementsByTagName('img');
+		   if((imgs != null)&&(imgs.length>0)){
+ 		     imgs[0].style.width=String(tmp)+"px";
+  		     if (___int___art != null) {
+			     clearInterval(___int___art);
+			     ___int___art = null;
+		     }
+		   }
+	   }
+	 }
+   }
+ }else{
+   if (is_found) {
+     if (elems[0].children[0] != null){
+	   elems[0].children[0].style.width = String(width_orig-off_/*380*/)+"px";
+	   if (elems[0].children[0].contentDocument != null) {
+	     var in_doc = elems[0].children[0].contentDocument;
+		 var canva = in_doc.getElementsByTagName('CANVAS');
+		 if ((canva != null)&&(canva.length > 0)) {
+		   var tmp = width_orig-off_;//380;// width/koef;
+		   canva[0].style.width = String(Math.round(tmp))+"px";
+		   canva[0].style.height = String(Math.round(/*235*/height_orig))+"px";
+		   canva[0].parentElement.style.width = canva[0].style.width;
+		   canva[0].parentElement.style.height = canva[0].style.height;
+		   canva[0].parentElement.parentElement.style.width = canva[0].style.width;
+		   canva[0].parentElement.parentElement.style.height = canva[0].style.height;
+		   elems[0].style.height = canva[0].style.height;
+		   if (___int___art != null) {
+			  clearInterval(___int___art);
+			  ___int___art = null;
+		  }
+		 }else{
+		 
+		 }
+	   }else{
+		   var imgs = elems[0].getElementsByTagName('img');
+		   if((imgs != null)&&(imgs.length>0)){
+		     imgs[0].style.width=String(width_orig-off_)+"px";
+			 if (___int___art != null) {
+				 clearInterval(___int___art);
+				 ___int___art = null;
+			 }
+			 
+		   }
+	   }
+	 }
+   }
+ }
+}
+
+var is_article_found = false;
+var article_adv_width = null;
+var article_adv_height = null;
+var elem = document.getElementById('content');
+if (elem != null){
+	var iframe_ = document.getElementById('banner_in_article_size_control');
+	
+	if (iframe_ != null){
+		if (iframe_.contentWindow.addEventListener) {
+			iframe_.contentWindow.addEventListener('resize',function () { onresize_in_art(); },false);
+		}else{
+			iframe_.contentWindow.attachEvent("onresize",onresize_in_art);
+		}
+	}
+    ___int___art = setInterval(/*OnIntInArt*/onresize_in_art,300);	
+//	onresize_in_art();
+
+  var div_elem = elem.getElementsByTagName('div');
+  if((div_elem != null)&&(div_elem.length>0)){
+    for(var i=0;i<div_elem.length;i++){
+	  var attr = div_elem[i].getAttribute('itemprop');
+	  if ((attr != null)&&(attr == 'articleBody')){
+	    is_article_found = true;
+	    elem = document.getElementById('adv_in_article_body');
+		if ((elem != null)&&(div_elem[i].childElementCount>0)){
+		  if (div_elem[i].children[0].tagName == 'DIV'){
+		    if (div_elem[i].childElementCount>1){
+			  div_elem[i].insertBefore(elem,div_elem[i].children[1]);
+			  elem.style.visibility='visible';
+			  var elems=elem.getElementsByTagName('div');
+			  if ((elems != null)&&(elems.length>0)){
+				  if ((elems[0].clientWidth > 0)&&(elems[0].clientHeight > 0)) {
+					  elems[0].style.margin = "";
+					  elems[0].style.marginRight = "20px";
+					  elems[0].style.marginBottom = "20px";
+					  elems[0].style.float = "left";
+					  if (article_adv_width == null){
+					    article_adv_width = elems[0].clientWidth;
+					  }
+					  if (article_adv_height == null){
+					    article_adv_height = elems[0].clientHeight;
+					  }
+//					  clearInterval(intervalID_in_art);
+				   }
+			  }
+			}
+			}else{
+			div_elem[i].insertBefore(elem,div_elem[i].children[0]);
+		    elem.style.visibility='visible';
+			var elems=elem.getElementsByTagName('div');
+			if ((elems != null)&&(elems.length>0)){
+			  if ((elems[0].clientWidth > 0)&&(elems[0].clientHeight > 0)) {
+				  elems[0].style.margin = "";
+				  elems[0].style.marginRight = "20px";
+				  elems[0].style.marginBottom = "20px";
+				  elems[0].style.float = "left";
+				  if (article_adv_width == null){
+					article_adv_width = elems[0].clientWidth;
+				  }
+				  if (article_adv_height == null){
+					article_adv_height = elems[0].clientHeight;
+				  }
+//				  clearInterval(intervalID_in_art);
+			   }
+			}
+			
+		  }
+		}
+		break;
+	  }
+	}//for i...
+  }
+  if (!is_article_found){
+    var elem=document.getElementById('adv_in_article_body');
+	if(elem != null){elem.parentElement.removeChild(elem);};
+	elem=document.getElementById('banner_in_article_size_control');
+	if(elem != null){elem.parentElement.removeChild(elem);}
+  }
+}
+</script>	<iframe id="banner_after_article_size_control" style="width: 100%; height: 0px; visibility: hidden;"></iframe>
+<div id="adv_after_article_body" style="visibility:hidden; width:0px; height:0px;">
+<!--AdFox START-->
+<!--Sportfakt.ru-->
+<!--Площадка: Sportfakt.ru / * / *-->
+<!--Тип баннера: Площадка после статьи-->
+<!--Расположение: <середина страницы>-->
+<script data-skip-moving="true" type="text/javascript">
+var ___int___after_art = null;
+var int_counter_after_art = 0;
+var off_after = 20;
+
+
+if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 4294967295 ) + 1; }
+if (typeof(document.referrer) != 'undefined') {
+    if (typeof(afReferrer) == 'undefined') {
+        afReferrer = encodeURIComponent(document.referrer);
+    }
+} else {
+    afReferrer = '';
+}
+var addate = new Date(); 
+document.write('<scr' + 'ipt type="text/javascript" src="//ads.adfox.ru/246322/prepareCode?pp=h&amp;ps=cfho&amp;p2=fmda&amp;plp=a&amp;pli=a&amp;pop=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer+'&amp;puid1='+tag_add+'"><\/scr' + 'ipt>');
+// -->
+</script>
+<!--AdFox END-->
+</div>
+
+<script data-skip-moving="true" type="text/javascript">
+var article_after_width = null;
+var article_after_height = null;
+
+
+
+function InsertAfterArticle(){
+  var elem=document.getElementById('content');
+  if (elem==null){return;}
+	var iframe_ = document.getElementById('banner_after_article_size_control');
+	if (iframe_ != null){
+		if (iframe_.contentWindow.addEventListener) {
+			iframe_.contentWindow.addEventListener('resize',function () { onresize_after_art(); },false);
+		}else{
+			iframe_.contentWindow.attachEvent("onresize",onresize_after_art);
+		}
+	}
+    ___int___after_art = setInterval(onresize_after_art,300);
+  var div_elem = elem.getElementsByTagName('div');
+  var art_id=null;
+  if((div_elem != null)&&(div_elem.length>0)){
+    for(var i=0;i<div_elem.length;i++){
+	  var attr = div_elem[i].getAttribute('itemprop');
+      if ((attr != null)&&(attr == 'articleBody')){
+	    art_id=div_elem[i];
+		break;
+      }
+    }//for i...
+  }
+  if(art_id==null){return;}
+  if(art_id.parentElement==null){return;}
+  if(art_id.parentElement.parentElement==null){return}
+  var par=art_id.parentElement.parentElement;
+  var social_media=par.getElementsByClassName('social-media clearfix');
+  if(!((social_media != null)&&(social_media.length>0))){return;}
+  var next_sibl=social_media[0].nextSibling;
+  if (next_sibl==null){return;}
+  var elem=document.getElementById('adv_after_article_body');
+  if (elem==null){return;}
+  par.insertBefore(elem,next_sibl);
+  var elems=elem.getElementsByTagName('div');
+  if(!((elems != null)&&(elems.length>0))){return;}
+  elem.style.width="";
+  elem.style.height="";
+  elem.style.float="left";
+  elem.style.visibility='visible';
+  if(article_after_width==null){article_after_width=elems[0].clientWidth;}
+  if(article_after_height==null){article_after_height=elems[0].clientHeight;}
+  
+}
+
+function InsertAfterResults(){
+
+
+}
+
+
+if (is_article_found){
+  InsertAfterArticle();
+}else{
+    var elem=document.getElementById('adv_after_article_body');
+	if(elem != null){elem.parentElement.removeChild(elem);};
+	elem=document.getElementById('banner_after_article_size_control');
+	if(elem != null){elem.parentElement.removeChild(elem);}
+//	alert("isnt article found.");
+}
+
+
+function onresize_after_art(){  if (int_counter_after_art >= 100) {    clearInterval(___int___after_art);	___int___after_art = null;  }  int_counter_after_art++; var width = 0; var elem = document.getElementById('content');   if (elem != null) {width = elem.clientWidth;} var elem = document.getElementById('adv_after_article_body'); if (elem == null){return;} var elems = elem.getElementsByTagName('div'); var is_found = false; var is_art_frame = false; if ((elems != null)&&(elems.length>0)){	 if((elems[0].clientWidth>0)&&(elems[0].clientHeight>0)){	  if (article_adv_width == null){		article_adv_width = elems[0].clientWidth;	  }	  if (article_adv_height == null){		article_adv_height = elems[0].clientHeight;	  }     if (elems[0].children[0] != null){	   elems[0].children[0].style.width = String(width-off_)+"px";	   if (elems[0].children[0].contentDocument != null) {	     is_art_frame = true;	   }	  }		is_found = true;	 } }else{return;}  if (is_art_frame){   var width_orig = article_adv_width;   var height_orig = article_adv_height; }else{	 var width_orig = elems[0].clientWidth;	 var height_orig = elems[0].clientHeight;}if (width < width_orig) {   var koef = width_orig/height_orig;   if (is_found){     if (elems[0].children[0] != null){	   elems[0].children[0].style.width = String(width-off_)+"px";	   if (elems[0].children[0].contentDocument != null) {	     var in_doc = elems[0].children[0].contentDocument;		 var canva = in_doc.getElementsByTagName('CANVAS');		 if ((canva != null)&&(canva.length > 0)) {		   var tmp = width-off_;		   canva[0].style.width = String(Math.round(tmp))+"px";		   canva[0].style.height = String(Math.round(tmp/koef))+"px";		   canva[0].parentElement.style.width = canva[0].style.width;		   canva[0].parentElement.style.height = canva[0].style.height;		   canva[0].parentElement.parentElement.style.width = canva[0].style.width;		   canva[0].parentElement.parentElement.style.height = canva[0].style.height;		   elems[0].style.height = canva[0].style.height;		   if (___int___after_art != null) {			   clearInterval(___int___after_art);			   ___int___after_art = null;		  }		 }	   }	   else{	       var tmp = width-off_;		   var imgs = elems[0].getElementsByTagName('img');		   if((imgs != null)&&(imgs.length>0)){ 		     imgs[0].style.width=String(tmp)+"px";  		     if (___int___after_art != null) {			     clearInterval(___int___after_art);			     ___int___after_art = null;		     }		   }	   }	 }   } }else{   if (is_found) {     if (elems[0].children[0] != null){	 elems[0].children[0].style.width = String(width_orig-off_)+"px";	   if (elems[0].children[0].contentDocument != null) {	     var in_doc = elems[0].children[0].contentDocument;		 var canva = in_doc.getElementsByTagName('CANVAS');		 if ((canva != null)&&(canva.length > 0)) {		   var tmp = width_orig-off_;		   canva[0].style.width = String(Math.round(tmp))+"px";		   canva[0].style.height = String(Math.round(height_orig))+"px";		   canva[0].parentElement.style.width = canva[0].style.width;		   canva[0].parentElement.style.height = canva[0].style.height;		   canva[0].parentElement.parentElement.style.width = canva[0].style.width;		   canva[0].parentElement.parentElement.style.height = canva[0].style.height;		   elems[0].style.height = canva[0].style.height;		   if (___int___after_art != null) {			  clearInterval(___int___after_art);			  ___int___after_art = null;		  }		 }else{		 		 }	   }else{		   var imgs = elems[0].getElementsByTagName('img');		   if((imgs != null)&&(imgs.length>0)){		   		     imgs[0].style.width=String(width_orig-off_)+"px";			 if (___int___after_art != null) {				 clearInterval(___int___after_art);				 ___int___after_art = null;			 }		   		   }	   }	   	 }   } }
+}
+
+
+</script>	 <script data-skip-moving="true" type="text/javascript">
+  var elem = document.getElementById("currentmatch-app");
+   if (elem != null) {
+     elem.style.backgroundColor = 'white';
+   }
+   var elem = document.getElementsByClassName('top-header clearfix');
+   var elem_after_header = null;
+	 if ((elem != null)&&(elem.length > 0)) {
+	 var test_elem = document.createElement('div');// document.getElementById('test_div');
+	 test_elem.id = 'test_div';
+	 test_elem.style.position = 'relative';
+	 test_elem.style.width = '100%';
+	 test_elem.style.height = '100%';
+//	 test_elem.style.top = String(elem[0].clientHeight)+"px";
+	 elem_after_header = elem[0].nextElementSibling;
+     if ((elem[0].parentElement != null)&&(elem_after_header != null)) {
+	   elem[0].parentElement.insertBefore(test_elem,elem_after_header);
+	 }
+	 }
+ </script>
+<!--AdFox START-->
+<!--Sportfakt.ru-->
+<!--Площадка: Sportfakt.ru / * / *-->
+<!--Тип баннера: Брендирование-->
+<!--Расположение: <середина страницы>-->
+<script data-skip-moving="true" type="text/javascript">
+<!--
+if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 4294967295) + 1; }
+if (typeof(document.referrer) != 'undefined') {
+  if (typeof(afReferrer) == 'undefined') {
+    afReferrer = encodeURIComponent(document.referrer);
+  }
+} else {
+  afReferrer = '';
+}
+var addate = new Date(); 
+document.write('<scr' + 'ipt type="text/javascript" src="//ads.adfox.ru/246322/prepareCode?pp=h&amp;ps=cfho&amp;p2=fitk&amp;pct=a&amp;plp=a&amp;pli=a&amp;pop=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '&amp;puid1='+tag_add+'"><\/scr' + 'ipt>');
+// -->
+</script>
+
+<!--AdFox END-->
+<script data-skip-moving="true" type="text/javascript">
+var check_bg_c = 0;
+var _int_bg = null;
+_int_bg = setInterval(OnCheckBg,300);
+
+function OnCheckBg() {
+  if (check_bg_c >= 100) {
+    clearInterval(_int_bg);
+	_int_bg = null;
+  }
+  check_bg_c++;
+  var elem=null;
+  var test = document.getElementById('test_div');
+  if (test != null) {
+    var attr = test.getAttribute("_offset_");
+	if (attr != null) {
+      clearInterval(_int_bg);
+	  _int_bg = null;
+	  var html_ = document.getElementsByTagName('html');
+	  if((html_ !=null)&&(html_.length>0)){
+	    html_[0].style.backgroundColor = test_div.style.backgroundColor;
+	  }
+	  if (attr != '0px') {
+		  elem = document.getElementsByClassName('top-block');
+		  if ((elem != null)&&(elem.length>0)) {
+		    elem[0].classList.add("adfoxClickable");
+			elem[0].style.cursor = 'default';
+			elem[0].style.position = 'relative';
+			elem[0].style.top = String(attr);
+			test.appendChild(elem[0]);
+		  }
+		  elem = document.getElementsByClassName('main-content');
+		  if ((elem != null)&&(elem.length>0)) {
+			elem[0].style.position = 'relative';
+			elem[0].style.cursor = 'default';
+		    elem[0].classList.add("adfoxClickable");
+			elem[0].style.top = String(attr);
+			elem[0].style.height = String(elem[0].clientHeight+parseInt(attr))+"px";
+			var cont = elem[0].getElementsByClassName('container container-lg');
+			if ((cont != null)&&(cont.length>0)){
+//			  cont[0].style.height = elem[0].style.height;
+			  var foot =elem[0].getElementsByClassName('sidebar-inner');
+			  if ((foot != null)&&(foot.length>0)){
+			    var _height_ = 0;
+				if (foot[0].clientHeight > elem[0].clientHeight){
+				  cont[0].style.height = foot[0].style.height;
+				}else{
+				  cont[0].style.height = elem[0].style.height;
+				}
+//				cont[0].style.height = foot[0].style.height;//String(parseInt(elem[0].style.height)+foot[0].clientHeight)+"px";
+			  }	
+			}
+			test.appendChild(elem[0]);
+//			elem[0].clientHeight+
+		  }
+		}else{
+		  elem = document.getElementsByClassName('top-block');
+		  if ((elem != null)&&(elem.length>0)) {
+			elem[0].style.position = 'relative';
+			elem[0].classList.add("adfoxClickable");
+			elem[0].style.cursor = 'default';
+		  }
+		  elem = document.getElementsByClassName('main-content');
+		  if ((elem != null)&&(elem.length>0)) {
+			elem[0].style.position = 'relative';
+		    elem[0].classList.add("adfoxClickable");
+			elem[0].style.cursor = 'default';
+		  }	
+		  test.style.position = 'fixed';
+		  var elem = document.getElementsByClassName('top-header clearfix');
+		  if ((elem != null)&&(elem.length > 0)) {
+		    document.body.insertBefore(test,elem[0]);
+			elem[0].style.position = 'relative';
+		  }
+		}
+	  elem=document.getElementsByClassName('footer');
+	  if((elem != null)&&(elem.length>0)){
+		elem[0].style.position='relative';
+		elem[0].style.top=String(attr);
+		elem[0].style.backgroundColor=test.style.backgroundColor;
+		document.body.style.backgroundColor=test.style.backgroundColor;
+	  }
+	}else{
+	}
+  }
+}
+</script>	
