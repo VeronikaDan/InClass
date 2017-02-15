@@ -12,7 +12,10 @@ def getTree(url):
 def cicle():
     year = ['2015','2016']
     month = ['01','02','03','04','05','06','07','08','09','10','11','12']
-    
+    interval = 'июль 15 - декабрь 16'
+    themes = ['politics', 'defense_safety', 'society', 'media', 'health',
+              'education', 'beauty_medicine', 'economy', 'company', 'world',
+              'incidents', 'sport', 'science', 'technology', 'culture', 'religion']
     refs = []
     return refs
 
